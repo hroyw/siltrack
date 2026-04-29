@@ -31,7 +31,9 @@
 
 ## 2. 数据范围
 
-### 2.1 追踪 22 个序列，分布在 3 条产业链
+### 2.1 追踪 24 个序列，分布在 3 条产业链
+
+按类型：**2 期货 + 11 现货 + 11 股票**。按分支：光伏 10 / 有机硅 8 / 光纤 6。
 
 #### 分支 1 · 光伏链
 | 类型 | 标识 | 名称 | 数据源 |
@@ -81,15 +83,23 @@
 
 ### 2.3 产业链关系（硬编码）
 
-每个节点声明 `upstream`（一个）和 `relatedStocks`（多个）。例如：
+每个节点声明 `upstream`（一个，可为 `null`）和 `relatedStocks`（多个）。例如：
 
 ```ts
 {
   id: 'polysilicon-dense',
-  upstream: 'SI',           // 单一上游
+  upstream: 'PS',           // 多晶硅致密料的上游 = 多晶硅期货
   relatedStocks: ['688303', '600438', '603260'],
 }
 ```
+
+上游链选择**就近原则**——优先选最直接的上一道工序。例如：
+- `PS`（多晶硅期货） → `SI`（工业硅期货）
+- `polysilicon-dense`（多晶硅现货） → `PS`
+- `wafer-m10`（硅片） → `polysilicon-dense`
+- `dmc`（有机硅中间体） → `SI`
+- `silicone-107` → `dmc`
+- 起点节点（`SI`、`quartz-sand`）的 `upstream` 为 `null`
 
 **"最相关股票"**通过预算的 60 日 Pearson 相关系数从 `relatedStocks` 中选出最高的那一只。
 
@@ -158,9 +168,9 @@ GitHub Actions cron (每日 23:00 UTC)
     │
     ▼
 python scripts/build.py
-    │  ├─ fetch.py  → akshare → 原始 22 个序列
-    │  ├─ transform.py  → 对齐日期 + ffill + 归一化前的清洗
-    │  └─ correlate.py  → 预算每对节点 60d / 30d 相关性
+    │  ├─ fetch.py  → akshare → 原始 24 个序列
+    │  ├─ transform.py  → 对齐到统一交易日索引 + 前向填充 ≤ 5 日缺口
+    │  └─ correlate.py  → 预算每节点对 (上游 + 关联股) 的 60d / 30d 滚动相关
     ▼
 data/all.json  (~1-3 MB)
     │
@@ -212,7 +222,7 @@ GitHub Actions deploy.yml → vite build → gh-pages
 | 模块 | 职责 | 公开接口（伪签名） |
 |---|---|---|
 | `scripts/fetch.py` | 调 akshare，纯抓取，按序列输出原始 dataframe | `fetch_all() -> dict[str, DataFrame]` |
-| `scripts/transform.py` | 对齐日期索引，前向填充，丢弃异常 | `align(raw) -> DataFrame` |
+| `scripts/transform.py` | 用 A 股交易日历建统一索引，前向填充缺口（最长 5 个交易日），仍缺则该序列在该日期标 `null` | `align(raw) -> DataFrame` |
 | `scripts/correlate.py` | 滚动相关性，对每个节点的 `relatedStocks` 和 `upstream` 计算 60/30 日相关 | `compute(aligned) -> dict` |
 | `scripts/chain_config.py` | 唯一的产业链定义来源（Python 端） | `CHAIN_NODES: list[dict]` |
 | `src/lib/chain.ts` | 前端镜像（生成自 `chain_config.py`，或手动同步） | `CHAIN_NODES: ChainNode[]` |
