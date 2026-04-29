@@ -42,7 +42,7 @@ export default function App() {
     ? [
         selection.primary && { series: selection.primary, color: '#3b82f6' },
         selection.upstream && { series: selection.upstream, color: '#10b981', dashed: true },
-        selection.topStock && { series: selection.topStock, color: '#a855f7' },
+        selection.topPeer && { series: selection.topPeer, color: '#a855f7' },
       ].filter((l): l is { series: NonNullable<typeof l>['series']; color: string; dashed?: boolean } => Boolean(l))
     : [];
 
@@ -62,7 +62,7 @@ export default function App() {
         data={data}
         selectedId={selection?.primary?.id ?? null}
         upstreamId={selection?.upstream?.id ?? null}
-        topStockId={selection?.topStock?.id ?? null}
+        topStockId={selection?.topPeer?.id ?? null}
         onSelect={setSelectedId}
       />
 

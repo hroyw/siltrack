@@ -44,23 +44,22 @@ export interface InsightInput {
   nodeName: string;
   upstreamName: string | null;
   upstreamCorr: number | null;
-  topStocks: { name: string; corr: number }[];
+  peers: { name: string; corr: number }[];
+  peerLabel: string;
 }
 
 export function generateInsight(i: InsightInput): string {
   const parts: string[] = [];
   if (i.upstreamName && i.upstreamCorr !== null) {
     parts.push(
-      `${i.nodeName} 与上游 ${i.upstreamName} 60日相关性 ${i.upstreamCorr.toFixed(2)}（${classifyCorrelation(i.upstreamCorr)}）`,
+      `与上游 ${i.upstreamName} 60日相关性 ${i.upstreamCorr.toFixed(2)}（${classifyCorrelation(i.upstreamCorr)}）`,
     );
   }
-  if (i.topStocks.length > 0) {
-    const stockText = i.topStocks
-      .map((s) => `${s.name} ${s.corr.toFixed(2)}`)
-      .join(' · ');
-    const label = i.topStocks.length === 1 ? '关联股票' : `关联股票 Top${i.topStocks.length}`;
-    parts.push(`${label}：${stockText}`);
+  if (i.peers.length > 0) {
+    const peerText = i.peers.map((p) => `${p.name} ${p.corr.toFixed(2)}`).join(' · ');
+    const label = i.peers.length === 1 ? i.peerLabel : `${i.peerLabel} Top${i.peers.length}`;
+    parts.push(`${label}：${peerText}`);
   }
   if (parts.length === 0) return `${i.nodeName} 暂无足够数据生成解读`;
-  return parts.join('；');
+  return `${i.nodeName} ${parts.join('；')}`;
 }

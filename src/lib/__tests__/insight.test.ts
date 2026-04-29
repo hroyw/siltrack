@@ -68,11 +68,12 @@ describe('generateInsight', () => {
       nodeName: '多晶硅致密料',
       upstreamName: '多晶硅期货主力',
       upstreamCorr: 0.85,
-      topStocks: [
+      peers: [
         { name: '通威股份', corr: 0.78 },
         { name: '大全能源', corr: 0.62 },
         { name: '合盛硅业', corr: 0.45 },
       ],
+      peerLabel: '关联股票',
     });
     expect(text).toContain('多晶硅致密料');
     expect(text).toContain('多晶硅期货主力');
@@ -88,11 +89,29 @@ describe('generateInsight', () => {
       nodeName: '工业硅期货主力',
       upstreamName: null,
       upstreamCorr: null,
-      topStocks: [{ name: '合盛硅业', corr: 0.72 }],
+      peers: [{ name: '合盛硅业', corr: 0.72 }],
+      peerLabel: '关联股票',
     });
     expect(text).toContain('合盛硅业');
     expect(text).not.toContain('上游');
     expect(text).not.toContain('Top');
+  });
+
+  it('uses peerLabel for stock primary (reverse lookup case)', () => {
+    const text = generateInsight({
+      nodeName: '合盛硅业',
+      upstreamName: null,
+      upstreamCorr: null,
+      peers: [
+        { name: 'DMC', corr: 0.71 },
+        { name: '工业硅期货主力', corr: 0.28 },
+      ],
+      peerLabel: '关联商品',
+    });
+    expect(text).toContain('合盛硅业');
+    expect(text).toContain('关联商品 Top2');
+    expect(text).toContain('DMC 0.71');
+    expect(text).toContain('工业硅期货主力 0.28');
   });
 
   it('falls back to placeholder when nothing to say', () => {
@@ -100,7 +119,8 @@ describe('generateInsight', () => {
       nodeName: '高纯石英砂',
       upstreamName: null,
       upstreamCorr: null,
-      topStocks: [],
+      peers: [],
+      peerLabel: '关联股票',
     });
     expect(text).toContain('高纯石英砂');
     expect(text).toContain('暂无');
