@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+dist-ssr
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# OS
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# siltrack
+.superpowers/
+.DS_Store
+*.local
+.venv/
