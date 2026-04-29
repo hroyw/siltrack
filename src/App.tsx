@@ -1,11 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useAllData } from './hooks/useAllData';
+import { useEvents } from './hooks/useEvents';
 import { useSelection } from './hooks/useSelection';
 import { ChainOverview } from './components/ChainOverview';
 import { TimelineChart } from './components/TimelineChart';
 import { InsightPanel } from './components/InsightPanel';
 import { TimeRangePicker } from './components/TimeRangePicker';
 import { ImportPage } from './components/ImportPage';
+import { EventTimeline } from './components/EventTimeline';
+import { SourceHealth } from './components/SourceHealth';
 import type { TimeRange } from './types';
 
 const DEFAULT_NODE = 'SI';
@@ -25,9 +28,11 @@ function useHashRoute(): string {
 export default function App() {
   const route = useHashRoute();
   const { data, loading, error } = useAllData();
+  const eventsState = useEvents();
   const [selectedId, setSelectedId] = useState<string>(DEFAULT_NODE);
   const [range, setRange] = useState<TimeRange>('1Y');
   const selection = useSelection(data, selectedId);
+  const focusRef = useRef<((id: string) => void) | null>(null);
 
   if (route === '#/import') {
     return (
@@ -102,8 +107,33 @@ export default function App() {
       />
 
       <section className="mt-2 rounded-md border border-gray-200 bg-white p-3">
-        <TimelineChart lines={lines} range={range} />
+        <TimelineChart
+          lines={lines}
+          range={range}
+          events={eventsState.data?.events}
+          onEventClick={(id) => focusRef.current?.(id)}
+        />
         {selection && <InsightPanel selection={selection} />}
+      </section>
+
+      <section className="mt-3 space-y-3">
+        {eventsState.data && (
+          <div className="flex items-center justify-between">
+            <h2 className="text-sm font-medium text-gray-700">相关事件</h2>
+            <SourceHealth sources={eventsState.data.sources} />
+          </div>
+        )}
+        {eventsState.error ? (
+          <div className="rounded-md border border-amber-200 bg-amber-50 p-3 text-xs text-amber-800">
+            事件流暂时不可用：{eventsState.error.message}
+          </div>
+        ) : (
+          <EventTimeline
+            events={eventsState.data?.events ?? []}
+            selectedNodeId={selectedId}
+            focusRef={focusRef}
+          />
+        )}
       </section>
     </main>
   );
