@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
-import type { Series, TimeRange } from '../types';
+import type { NewsEvent, Series, TimeRange } from '../types';
 import { sliceByRange, normalizeFromBase } from '../lib/analytics';
 
 interface Line {
@@ -12,16 +12,26 @@ interface Line {
 interface Props {
   lines: Line[];
   range: TimeRange;
+  events?: NewsEvent[];
+  onEventClick?: (id: string) => void;
 }
 
-export function TimelineChart({ lines, range }: Props) {
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+export function TimelineChart({ lines, range, events, onEventClick }: Props) {
   const option = useMemo(() => {
     const echartsSeries = lines
       .filter((l) => l.series.points.length > 0)
-      .map((l) => {
+      .map((l, idx) => {
         const sliced = sliceByRange(l.series.points, range);
         const normalized = normalizeFromBase(sliced);
-        return {
+        const base = {
           name: l.series.name,
           type: 'line' as const,
           smooth: true,
@@ -29,6 +39,37 @@ export function TimelineChart({ lines, range }: Props) {
           lineStyle: { color: l.color, width: 1.8, type: l.dashed ? 'dashed' : 'solid' },
           itemStyle: { color: l.color },
           data: normalized.map((p) => [p.date, +p.value.toFixed(2)]),
+        };
+        if (idx !== 0 || !events || events.length === 0) return base;
+
+        const primaryId = l.series.id;
+        const inRange = new Set(normalized.map((p) => p.date));
+        const matched = events.filter(
+          (e) => e.related_nodes.includes(primaryId) && inRange.has(e.date),
+        );
+        if (matched.length === 0) return base;
+
+        return {
+          ...base,
+          markPoint: {
+            symbol: 'circle' as const,
+            symbolSize: 8,
+            label: { show: false },
+            tooltip: {
+              formatter: (p: { name?: string; data?: { event?: NewsEvent } }) => {
+                const e = p.data?.event;
+                if (!e) return '';
+                return `${e.date} · ${escapeHtml(e.source_label)}<br/>${escapeHtml(e.title)}`;
+              },
+            },
+            data: matched.map((e) => ({
+              name: e.id,
+              xAxis: e.date,
+              yAxis: 100,
+              itemStyle: { color: l.color, opacity: 0.7 },
+              event: e,
+            })),
+          },
         };
       });
 
@@ -47,7 +88,7 @@ export function TimelineChart({ lines, range }: Props) {
       },
       series: echartsSeries,
     };
-  }, [lines, range]);
+  }, [lines, range, events]);
 
   if (lines.every((l) => l.series.points.length === 0)) {
     return (
@@ -57,5 +98,23 @@ export function TimelineChart({ lines, range }: Props) {
     );
   }
 
-  return <ReactECharts option={option} style={{ height: 320 }} notMerge lazyUpdate />;
+  const echartsEvents = onEventClick
+    ? {
+        click: (params: { componentType?: string; data?: { name?: string } }) => {
+          if (params.componentType === 'markPoint' && params.data?.name) {
+            onEventClick(params.data.name);
+          }
+        },
+      }
+    : undefined;
+
+  return (
+    <ReactECharts
+      option={option}
+      style={{ height: 320 }}
+      notMerge
+      lazyUpdate
+      onEvents={echartsEvents}
+    />
+  );
 }
