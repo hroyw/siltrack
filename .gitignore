@@ -32,5 +32,4 @@ dist-ssr
 .venv/
 __pycache__/
 .pytest_cache/
-data/all.json
 public/data/
