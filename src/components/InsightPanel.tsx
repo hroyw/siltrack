@@ -11,8 +11,7 @@ export function InsightPanel({ selection }: Props) {
     nodeName: selection.primary.name,
     upstreamName: selection.upstream?.name ?? null,
     upstreamCorr: selection.upstreamCorr,
-    stockName: selection.topStock?.name ?? null,
-    stockCorr: selection.topStockCorr,
+    topStocks: selection.topStocks.map((s) => ({ name: s.series.name, corr: s.corr })),
   });
   return (
     <div className="mt-3 rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900">
