@@ -1,19 +1,43 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAllData } from './hooks/useAllData';
 import { useSelection } from './hooks/useSelection';
 import { ChainOverview } from './components/ChainOverview';
 import { TimelineChart } from './components/TimelineChart';
 import { InsightPanel } from './components/InsightPanel';
 import { TimeRangePicker } from './components/TimeRangePicker';
+import { ImportPage } from './components/ImportPage';
 import type { TimeRange } from './types';
 
 const DEFAULT_NODE = 'SI';
 
+function useHashRoute(): string {
+  const [hash, setHash] = useState<string>(() =>
+    typeof window !== 'undefined' ? window.location.hash : '',
+  );
+  useEffect(() => {
+    const onHash = () => setHash(window.location.hash);
+    window.addEventListener('hashchange', onHash);
+    return () => window.removeEventListener('hashchange', onHash);
+  }, []);
+  return hash;
+}
+
 export default function App() {
+  const route = useHashRoute();
   const { data, loading, error } = useAllData();
   const [selectedId, setSelectedId] = useState<string>(DEFAULT_NODE);
   const [range, setRange] = useState<TimeRange>('1Y');
   const selection = useSelection(data, selectedId);
+
+  if (route === '#/import') {
+    return (
+      <ImportPage
+        onBack={() => {
+          window.location.hash = '';
+        }}
+      />
+    );
+  }
 
   if (loading) {
     return (
@@ -55,7 +79,18 @@ export default function App() {
             数据更新时间 {new Date(data.generatedAt).toLocaleString('zh-CN')}
           </p>
         </div>
-        <TimeRangePicker value={range} onChange={setRange} />
+        <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={() => {
+              window.location.hash = '#/import';
+            }}
+            className="rounded-md border border-gray-300 bg-white px-3 py-1 text-sm text-gray-700 hover:border-blue-400 hover:text-blue-600"
+          >
+            数据导入
+          </button>
+          <TimeRangePicker value={range} onChange={setRange} />
+        </div>
       </header>
 
       <ChainOverview

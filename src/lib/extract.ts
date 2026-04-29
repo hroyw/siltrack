@@ -117,16 +117,6 @@ export function parsePriceTable(text: string): ExtractedPrice[] {
   return out;
 }
 
-const ZH_DIGITS: Record<string, number> = {
-  零: 0, 一: 1, 二: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9, 十: 10,
-};
-
-function zhNumberToInt(s: string): number | null {
-  if (/^\d+$/.test(s)) return parseInt(s, 10);
-  if (s in ZH_DIGITS) return ZH_DIGITS[s];
-  return null;
-}
-
 const FULL_DATE_RE = /(\d{4})年\s*(\d{1,2})月\s*(\d{1,2})日/;
 const SHORT_DATE_RE = /(\d{1,2})月\s*(\d{1,2})日/;
 // Explicit "price-statistics-date" tag like "（价格统计时间：4月28日）"
