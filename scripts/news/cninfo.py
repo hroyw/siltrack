@@ -54,7 +54,10 @@ def fetch_events(since: dt.date) -> list[Event]:
             title = str(row.get('公告标题', '')).strip()
             if not title:
                 continue
-            url = str(row.get('公告链接', '')).strip()
+            # akshare's stock_notice_report returns the URL under '网址'
+            # (NOT '公告链接' which doesn't exist). Other columns are:
+            # 代码 / 名称 / 公告标题 / 公告类型 / 公告日期 / 网址
+            url = str(row.get('网址', '')).strip()
             ann_id = hashlib.md5(f'{code}{title}{date_str}'.encode('utf-8')).hexdigest()[:4]
             events.append({
                 'id': f'cninfo-{code}-{date_str}-{ann_id}',
