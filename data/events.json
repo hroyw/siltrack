@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-04-29T22:06:54.306680+00:00",
+  "generated_at": "2026-04-29T22:26:41.220882+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-04-29T22:06:53.309881+00:00",
+      "last_success_at": "2026-04-29T22:26:39.757017+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-04-29T22:06:54.306434+00:00",
+      "last_success_at": "2026-04-29T22:26:41.220580+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-04-29T22:06:54.306623+00:00",
+      "last_success_at": "2026-04-29T22:26:41.220807+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
@@ -30,7 +30,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于董事、高级管理人员2025年度薪酬确认及2026年度薪酬方案的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711115.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -49,7 +49,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:第六届董事会2025年年度会议决议公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711110.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -68,7 +68,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于会计政策变更的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711128.html",
       "event_type": "policy",
       "related_nodes": [
         "601012",
@@ -87,7 +87,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年审计委员会履职报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711104.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -106,7 +106,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于召开2025年年度股东会的通知",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711107.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -125,7 +125,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:董事会审计委员会对会计师事务所履行监督职责情况报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711105.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -144,7 +144,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于续聘会计师事务所的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711114.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -163,7 +163,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度独立董事述职报告(徐珊,已离职)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711123.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -182,7 +182,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于2025年第四季度计提资产减值准备的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711135.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -201,7 +201,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度内部控制审计报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711133.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -220,7 +220,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于2025年度会计师事务所履职情况的评估报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711119.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -239,7 +239,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度独立董事述职报告(李美成)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711113.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -258,7 +258,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2026年度“提质增效重回报”行动方案",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711100.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -277,7 +277,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度可持续发展报告摘要",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711131.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -296,7 +296,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:董事和高级管理人员薪酬管理制度",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711120.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -315,7 +315,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度独立董事述职报告(陆毅)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711108.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -334,7 +334,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度可持续发展报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711103.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -353,7 +353,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度审计报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711121.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -372,7 +372,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:第六届董事会独立董事专门会议2026年第一次会议决议",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711109.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -391,7 +391,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度营业收入扣除情况的专项说明",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711112.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -410,7 +410,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度独立董事述职报告(周喆)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711127.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -429,7 +429,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:《董事和高级管理人员薪酬管理办法》修订对照表",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711111.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -448,7 +448,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年年度报告摘要",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711130.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -467,7 +467,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于变更注册资本并修订《公司章程》的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711117.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -486,7 +486,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度非经营性资金占用及其他关联资金往来情况的专项说明",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711122.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -505,7 +505,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:募集资金2025年度存放、管理与实际使用情况专项报告的鉴证报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711129.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -524,7 +524,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2026年第一季度报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711116.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -543,7 +543,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于拟向员工持股平台转让控股子公司部分股权暨关联交易的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711118.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -562,7 +562,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:公司章程(2026年4月)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711102.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -581,7 +581,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:董事会关于对独立董事独立性自查情况的专项报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711106.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -600,7 +600,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:关于2026年为苏州精控能源科技股份有限公司及其子公司提供担保暨关联交易的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711126.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -619,7 +619,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年年度报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711124.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -638,7 +638,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度内部控制评价报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711134.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -657,7 +657,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:2025年度利润分配方案的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711101.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -676,7 +676,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:中国国际金融股份有限公司关于隆基绿能科技股份有限公司2025年度募集资金存放、管理与实际使用情况的专项核查报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711132.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -695,7 +695,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "隆基绿能:募集资金2025年度存放、管理与实际使用情况专项报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202604281821711125.html",
       "event_type": "other",
       "related_nodes": [
         "601012",
@@ -714,7 +714,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "新安股份:新安股份2026年第一季度报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202604281821690838.html",
       "event_type": "other",
       "related_nodes": [
         "600596",
@@ -732,7 +732,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "新安股份:新安股份2026年第一季度主要经营数据公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202604281821690837.html",
       "event_type": "other",
       "related_nodes": [
         "600596",
@@ -750,7 +750,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "通威股份:通威股份有限公司关于“通22转债”可选择回售的第五次提示性公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604281821683592.html",
       "event_type": "other",
       "related_nodes": [
         "600438",
@@ -770,7 +770,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "合盛硅业:合盛硅业关于向特定对象发行A股股票申请获得上海证券交易所受理的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604281821663879.html",
       "event_type": "other",
       "related_nodes": [
         "603260",
@@ -790,7 +790,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "TCL中环:关于完成工商变更登记并换发营业执照的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202604271821641738.html",
       "event_type": "other",
       "related_nodes": [
         "002129",
@@ -808,7 +808,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "TCL中环:2026年一季度报告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202604271821641725.html",
       "event_type": "other",
       "related_nodes": [
         "002129",
@@ -826,7 +826,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "TCL中环:关于召开2026年第二次临时股东会通知的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202604271821641720.html",
       "event_type": "other",
       "related_nodes": [
         "002129",
@@ -844,7 +844,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "TCL中环:第七届董事会第二十二次会议决议公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202604271821641722.html",
       "event_type": "other",
       "related_nodes": [
         "002129",
@@ -862,7 +862,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "TCL中环:关于申请统一注册发行银行间债券市场债务融资工具的公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202604271821641719.html",
       "event_type": "other",
       "related_nodes": [
         "002129",
@@ -880,7 +880,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "通威股份:通威股份有限公司关于“通22转债”可选择回售的第四次提示性公告",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604271821615344.html",
       "event_type": "other",
       "related_nodes": [
         "600438",
@@ -900,7 +900,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "3-1中国银河证券股份有限公司关于合盛硅业股份有限公司向特定对象发行股票之发行保荐书(申报稿)(合盛硅业股份有限公司)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604271821619228.html",
       "event_type": "other",
       "related_nodes": [
         "603260",
@@ -920,7 +920,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "3-2中国银河证券股份有限公司关于合盛硅业股份有限公司向特定对象发行股票之上市保荐书(申报稿)(合盛硅业股份有限公司)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604271821619229.html",
       "event_type": "other",
       "related_nodes": [
         "603260",
@@ -940,7 +940,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "6-1天健会计师事务所(特殊普通合伙)关于合盛硅业股份有限公司向特定对象发行股票的财务报告及审计报告(申报稿)(合盛硅业股份有限公司)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604271821619231.html",
       "event_type": "other",
       "related_nodes": [
         "603260",
@@ -960,7 +960,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "4-1上海市锦天城律师事务所关于合盛硅业股份有限公司向特定对象发行股票的法律意见书(申报稿)(合盛硅业股份有限公司)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604271821619230.html",
       "event_type": "other",
       "related_nodes": [
         "603260",
@@ -980,7 +980,7 @@
       "source": "cninfo",
       "source_label": "巨潮资讯",
       "title": "1-1合盛硅业股份有限公司向特定对象发行股票证券募集说明书(申报稿)",
-      "url": "",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604271821619157.html",
       "event_type": "other",
       "related_nodes": [
         "603260",
