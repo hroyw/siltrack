@@ -1,4 +1,4 @@
-"""Orchestrate fetch -> transform -> correlate -> write data/all.json."""
+"""Orchestrate fetch -> transform -> correlate -> write data/all.json + data/events.json."""
 from __future__ import annotations
 
 import datetime as dt
@@ -12,6 +12,7 @@ from chain_config import CHAIN_NODES, get_node
 from fetch import fetch_all
 from transform import align_to_calendar, forward_fill_capped
 from correlate import compute_correlations
+from news.pipeline import run_news_pipeline, write_events_json
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'data' / 'all.json'
@@ -87,6 +88,13 @@ def main() -> int:
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
     sizes = sum(len(s['points']) for s in series_payload)
     log.info('wrote %s (%d series, %d total points)', OUTPUT, len(series_payload), sizes)
+
+    log.info('running news pipeline')
+    events_payload = run_news_pipeline()
+    events_path = write_events_json(events_payload)
+    log.info('wrote %s (%d events, sources=%s)', events_path,
+             len(events_payload['events']),
+             {k: v['ok'] for k, v in events_payload['sources'].items()})
     return 0
 
 

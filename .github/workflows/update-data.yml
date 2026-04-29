@@ -36,11 +36,26 @@ jobs:
           test -s data/all.json
           python -c "import json,pathlib; d=json.loads(pathlib.Path('data/all.json').read_text(encoding='utf-8')); assert len(d['series'])==24"
 
+      - name: Verify data/events.json
+        run: |
+          test -s data/events.json
+          python <<'PY'
+          import json, pathlib, sys
+          d = json.loads(pathlib.Path('data/events.json').read_text(encoding='utf-8'))
+          required = {'cninfo', 'gfex', 'customs'}
+          assert set(d['sources'].keys()) == required, f"sources keys mismatch: {d['sources'].keys()}"
+          oks = [name for name, s in d['sources'].items() if s.get('ok')]
+          if not oks:
+              print('FATAL: all 3 news sources failed', file=sys.stderr)
+              sys.exit(1)
+          print(f"events.json OK: {len(d['events'])} events, sources ok={oks}")
+          PY
+
       - name: Commit if changed
         run: |
           git config user.name 'siltrack-bot'
           git config user.email 'siltrack-bot@users.noreply.github.com'
-          git add -f data/all.json
+          git add -f data/all.json data/events.json
           if git diff --cached --quiet; then
             echo "no data changes"
           else
