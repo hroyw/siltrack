@@ -16,7 +16,11 @@ ROOT = Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / 'data' / 'events.json'
 
 RETENTION_DAYS = 730   # 2 years
-LOOKBACK_DAYS = 7      # daily scrapers re-fetch last week to absorb weekend gaps
+# cninfo's `stock_notice_report(symbol='全部', date=...)` paginates the entire
+# market per day (~3-4 min on GH Actions). Each extra LOOKBACK_DAY adds a full
+# market scan, so keep this minimal. The pipeline merges with previous events so
+# historical depth comes from accumulation, not lookback width.
+LOOKBACK_DAYS = 2      # current day + 1-day cushion for runs that skipped a day
 
 
 def _now_iso() -> str:
