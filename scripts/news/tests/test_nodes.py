@@ -26,8 +26,13 @@ def test_infer_for_cninfo_unknown_stock_returns_self_only() -> None:
     ('工业硅持仓限额公告', ['SI']),
     ('PS2511 交割结算价', ['PS']),
     ('多晶硅期货保证金调整', ['PS']),
-    ('风险控制管理办法修订', ['SI', 'PS']),  # neither keyword
+    ('风险控制管理办法修订', ['SI', 'PS']),  # exchange-wide rule
+    ('节假日交易安排公告', ['SI', 'PS']),  # exchange-wide schedule
     ('工业硅与多晶硅联合演练', ['SI', 'PS']),  # both keywords
+    # Other-product announcements should be filtered out — siltrack only cares about silicon.
+    ('关于调整铂、钯期货相关合约交易手续费标准的通知', []),
+    ('关于碳酸锂期货合约挂牌基准价的通知', []),
+    ('钯期货指定交割仓库的通知', []),
 ])
 def test_infer_for_gfex(title: str, expected: list[str]) -> None:
     assert infer_for_gfex(title) == expected

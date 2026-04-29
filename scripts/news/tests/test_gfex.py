@@ -47,6 +47,15 @@ def test_parse_list_assigns_related_nodes() -> None:
     assert risk['related_nodes'] == ['SI', 'PS']
 
 
+def test_parse_list_skips_navigation_li_without_h4() -> None:
+    """Regression: nav <li> with raw <a> + <span> (no <h4> wrapper) must not be picked up."""
+    html = FIXTURE.read_text(encoding='utf-8')
+    events = gfex.parse_list(html, since=dt.date(2026, 4, 1), base_url=gfex.LIST_URL)
+    titles = [e['title'] for e in events]
+    assert '首页' not in titles
+    assert '品种' not in titles
+
+
 def test_parse_list_id_is_stable_across_runs() -> None:
     html = FIXTURE.read_text(encoding='utf-8')
     a = gfex.parse_list(html, since=dt.date(2026, 4, 1), base_url=gfex.LIST_URL)

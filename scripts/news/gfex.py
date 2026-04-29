@@ -1,4 +1,23 @@
-"""Scrape Guangzhou Futures Exchange announcement list."""
+"""Scrape Guangzhou Futures Exchange announcement list.
+
+Source: http://www.gfex.com.cn/gfex/bpzgg/list.shtml ("品种公告" — the
+comprehensive product-announcements meta list, covering all GFEX listed
+products including 工业硅 (SI) and 多晶硅 (PS)).
+
+The page structure is:
+
+    <li>
+      <h4>
+        <a href="/gfex/tzts/...shtml" title="..." target="_blank">标题</a>
+        <span class="time">2026-04-23</span>
+      </h4>
+    </li>
+
+We narrow `<li>` selection to those that contain the `<h4><a>` + `<span class="time">`
+combo so we don't accidentally match navigation `<li>` elements.
+
+Silicon-relevance filtering is delegated to nodes.infer_for_gfex (title-based).
+"""
 from __future__ import annotations
 
 import datetime as dt
@@ -15,7 +34,7 @@ from .types import Event
 
 log = logging.getLogger(__name__)
 
-LIST_URL = 'http://www.gfex.com.cn/gfex/zxgg/index.htm'
+LIST_URL = 'http://www.gfex.com.cn/gfex/bpzgg/list.shtml'
 HEADERS = {'User-Agent': 'siltrack-bot/0.1 (+https://github.com/)'}
 TIMEOUT = 20
 
@@ -35,9 +54,13 @@ def parse_list(html: str, since: dt.date, base_url: str) -> list[Event]:
     soup = BeautifulSoup(html, 'html.parser')
     events: list[Event] = []
     seen_ids: set[str] = set()
+    # Match the exact h4>a + span.time pattern; this rules out navigation lists.
     for li in soup.select('li'):
-        a = li.find('a')
-        date_span = li.find('span')
+        h4 = li.find('h4')
+        if not h4:
+            continue
+        a = h4.find('a')
+        date_span = h4.find('span', class_='time')
         if not a or not date_span:
             continue
         title = a.get_text(strip=True)

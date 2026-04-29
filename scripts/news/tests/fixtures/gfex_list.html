@@ -1,26 +1,63 @@
 <!DOCTYPE html>
-<html><head><meta charset="utf-8"><title>最新公告</title></head>
+<html><head><meta charset="utf-8"><title>品种公告</title></head>
 <body>
-<ul class="list">
-  <li>
-    <a href="/gfex/zxgg/202604/2026042801.htm">关于工业硅期货持仓限额调整的公告</a>
-    <span>2026-04-28</span>
-  </li>
-  <li>
-    <a href="/gfex/zxgg/202604/2026042701.htm">多晶硅期货标准仓单注册情况</a>
-    <span>2026-04-27</span>
-  </li>
-  <li>
-    <a href="/gfex/zxgg/202604/2026042001.htm">风险控制管理办法修订通知</a>
-    <span>2026-04-20</span>
-  </li>
-  <li>
-    <a href="">空标题样本</a>
-    <span>2026-04-19</span>
-  </li>
-  <li>
-    <a href="/gfex/zxgg/202603/2026031501.htm">早于 since 的旧公告</a>
-    <span>2026-03-15</span>
-  </li>
+<!-- Real-world structure: each announcement is <li><h4><a>...</a><span class="time">...</span></h4></li>
+     This fixture was captured from gfex.com.cn/gfex/bpzgg/list.shtml on 2026-04-29 with
+     two synthetic SI/PS entries injected to verify silicon-related filtering. -->
+<div class="public_list">
+  <ul>
+    <li>
+      <h4><a href="/gfex/tzts/202604/2026042801.shtml" title="关于工业硅期货持仓限额调整的公告" target="_blank">
+        关于工业硅期货持仓限额调整的公告
+      </a><span class="time">
+        2026-04-28
+      </span></h4>
+    </li>
+
+    <li>
+      <h4><a href="/gfex/tzts/202604/2026042701.shtml" title="多晶硅期货标准仓单注册情况" target="_blank">
+        多晶硅期货标准仓单注册情况
+      </a><span class="time">
+        2026-04-27
+      </span></h4>
+    </li>
+
+    <li>
+      <h4><a href="/gfex/tzts/202604/2026042001.shtml" title="风险控制管理办法修订通知" target="_blank">
+        风险控制管理办法修订通知
+      </a><span class="time">
+        2026-04-20
+      </span></h4>
+    </li>
+
+    <li>
+      <h4><a href="/gfex/tzts/202604/2026042301.shtml" title="关于调整铂、钯期货相关合约交易手续费标准的通知" target="_blank">
+        关于调整铂、钯期货相关合约交易手续费标准的通知
+      </a><span class="time">
+        2026-04-23
+      </span></h4>
+    </li>
+
+    <!-- Empty title — should be skipped -->
+    <li>
+      <h4><a href="" target="_blank"></a><span class="time">2026-04-19</span></h4>
+    </li>
+
+    <!-- Pre-since announcement — should be filtered out -->
+    <li>
+      <h4><a href="/gfex/tzts/202603/2026031501.shtml" title="早于 since 的旧公告" target="_blank">
+        早于 since 的旧公告
+      </a><span class="time">
+        2026-03-15
+      </span></h4>
+    </li>
+  </ul>
+</div>
+
+<!-- Navigation li (no h4 inside) — must NOT be picked up by parser -->
+<ul class="nav">
+  <li><a href="/gfex/index.shtml">首页</a><span>nav-item</span></li>
+  <li><a href="/gfex/sspz/redirect_firstChannel.shtml">品种</a></li>
 </ul>
+
 </body></html>
