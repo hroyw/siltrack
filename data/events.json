@@ -1,29 +1,1240 @@
 {
-  "generated_at": "2026-04-30T00:12:03.390472+00:00",
+  "generated_at": "2026-05-01T00:09:50.174353+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-04-30T00:12:01.758897+00:00",
+      "last_success_at": "2026-05-01T00:09:49.918496+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-04-30T00:12:03.390163+00:00",
+      "last_success_at": "2026-05-01T00:09:50.174077+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-04-30T00:12:03.390374+00:00",
+      "last_success_at": "2026-05-01T00:09:50.174239+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-688303-20260430-bc17",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于召开2025年年度股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202604291821776805.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260430-fc79",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于2026年第一季度计提资产减值准备的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202604291821776802.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260430-d3ac",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:新疆大全新能源股份有限公司章程(2026年4月修订)",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202604291821776803.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260430-ecaf",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202604291821776801.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260430-d48e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于变更回购股份用途并注销暨减少注册资本、修订公司章程并办理工商变更登记的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202604291821776804.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-f8c2",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于2025年度拟不进行利润分配的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754953.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-4eb2",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于续聘会计师事务所的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754894.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-97fe",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司第九届董事会第九次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754888.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-7a28",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754897.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-088e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于2025年度计提资产减值准备及资产报废的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754883.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-e946",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司独立董事2025年度述职报告(傅代国)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754901.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-2f63",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年度营业收入扣除情况的专项核查意见-川华信专2026第0319000号",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754899.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-18b3",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司独立董事2025年度述职报告(陈磊)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754873.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-ef64",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于“通22转债”可选择回售的第六次提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754902.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-2368",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司董事会审计委员会2025年度对会计师事务所履行监督职责情况的报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754904.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-90a1",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年度会计师事务所履职情况评估报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754895.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-3125",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年环境、社会与公司治理报告暨可持续发展报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754882.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-aa8d",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于2026年开展票据池业务的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754898.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-445d",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司董事会2025年度关于独立董事独立性自查情况的专项报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754903.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-c99f",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754879.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-e572",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于2026年度为公司客户提供担保的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754886.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-e430",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年年度报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754875.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-92fc",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司董事会审计委员会2025年度履职情况报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754877.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-f9b7",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年环境、社会与公司治理报告暨可持续发展报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754872.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-4d1e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年度内部控制审计报告-川华信专2026第0318000号",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754893.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-8edd",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于2026年第一季度计提资产减值准备及资产报废的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754881.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-658d",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年度年报审计报告-川华信审2026第0034000号",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754887.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-3002",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于2026年申请综合授信的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754890.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-8eb9",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司独立董事2025年度述职报告(姜玉梅)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754880.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-f93e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年度非经营性资金占用及其他关联资金往来情况的专项说明-川华信专2026第0317000号",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754871.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-5c3e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于2026年度公司及下属子公司相互提供担保的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754885.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-c021",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司独立董事2025年度述职报告(许映童)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754892.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-d946",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于会计政策变更的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754891.html",
+      "event_type": "policy",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-4d8f",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于2026年利用短期溢余资金进行理财的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754896.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-f567",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年内部控制评价报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754878.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-5ab4",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司董事、高级管理人员薪酬管理制度",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754900.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-8a70",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于召开2025年年度股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754884.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-1b3e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年度“提质增效重回报”行动方案的评估报告暨2026年度“提质增效重回报”行动方案",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754889.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260430-f15b",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于预计2026年日常关联交易的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202604291821754876.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-ca6e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司内幕信息知情人登记管理制度",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753641.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-07f4",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2025年度环境、社会及管治报告暨可持续发展报告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753623.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-5d5e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司对外投资管理制度",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753637.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-235e",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司董事、高级管理人员离职管理制度",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753634.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-7077",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司董事会审计委员会工作细则",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753633.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-3562",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司关联交易管理制度",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753624.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-0923",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司董事会提名及薪酬委员会工作细则",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753625.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-661b",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司对外担保管理办法",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753636.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-11b9",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司第四届董事会第二十次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753631.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-3a61",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2025年度环境、社会及管治报告暨可持续发展报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753635.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-e709",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司董事会战略委员会工作细则",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753640.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-d98d",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司募集资金管理办法",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753622.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-110b",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753638.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-1042",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司董事、高级管理人员持股及变动管理制度",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753639.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-c35a",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司投资者关系管理制度",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753629.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-fa73",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司信息披露管理办法",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753627.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-e960",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司内部审计制度",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753632.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260430-9919",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司信息披露暂缓与豁免业务管理制度",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202604291821753628.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260430-20e5",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于2026年度第一季度担保情况的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604291821745343.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260430-46aa",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业第四届董事会第十九次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604291821745316.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260430-054a",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604291821745324.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260430-2562",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2025年度可持续发展报告(ESG报告)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604291821745317.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260430-1107",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2026年第一季度主要经营数据公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604291821745337.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260430-6fc3",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于会计政策变更的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604291821745272.html",
+      "event_type": "policy",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260430-6169",
+      "date": "2026-04-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2025年度可持续发展报告(ESG报告)摘要",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202604291821745271.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601012-20260429-10a3",
       "date": "2026-04-29",
