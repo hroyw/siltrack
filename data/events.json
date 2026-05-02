@@ -1,29 +1,47 @@
 {
-  "generated_at": "2026-05-01T00:09:50.174353+00:00",
+  "generated_at": "2026-05-02T00:06:23.122867+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-01T00:09:49.918496+00:00",
+      "last_success_at": "2026-05-02T00:06:21.052684+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-01T00:09:50.174077+00:00",
+      "last_success_at": "2026-05-02T00:06:23.122547+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-01T00:09:50.174239+00:00",
+      "last_success_at": "2026-05-02T00:06:23.122716+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603938-20260501-92c7",
+      "date": "2026-05-01",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于2025年度暨2026年第一季度业绩暨现金分红说明会召开情况的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202604301821840346.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-688303-20260430-bc17",
       "date": "2026-04-30",
