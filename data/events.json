@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-05-05T23:54:58.594307+00:00",
+  "generated_at": "2026-05-06T23:55:57.184219+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-05T23:54:56.903969+00:00",
+      "last_success_at": "2026-05-06T23:55:56.150608+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-05T23:54:58.593925+00:00",
+      "last_success_at": "2026-05-06T23:55:57.183874+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-05T23:54:58.594183+00:00",
+      "last_success_at": "2026-05-06T23:55:57.184090+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20260506-e3bc",
+      "date": "2026-05-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于“通22转债”可选择回售的第七次提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202605051821969543.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603938-20260501-92c7",
       "date": "2026-05-01",
