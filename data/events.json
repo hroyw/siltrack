@@ -1,29 +1,182 @@
 {
-  "generated_at": "2026-05-06T23:55:57.184219+00:00",
+  "generated_at": "2026-05-07T23:58:35.572891+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-06T23:55:56.150608+00:00",
+      "last_success_at": "2026-05-07T23:58:34.570778+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-06T23:55:57.183874+00:00",
+      "last_success_at": "2026-05-07T23:58:35.572539+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-06T23:55:57.184090+00:00",
+      "last_success_at": "2026-05-07T23:58:35.572780+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260507-7e5f",
+      "date": "2026-05-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:2026年05月07日投资者关系活动记录表(2025年度暨2026年一季度业绩说明会)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605071822032375.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260507-04ba",
+      "date": "2026-05-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:投资者关系活动记录表(2026年4月30日)",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202605071822031528.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260507-e8fe",
+      "date": "2026-05-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人部分股份质押及解质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605061821991189.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260507-91f4",
+      "date": "2026-05-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人权益变动触及1%刻度的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605061821991187.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260507-776f",
+      "date": "2026-05-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:北京市天元律师事务所关于三孚股份实施2026年员工持股计划的法律意见",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202605061821987785.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260507-386c",
+      "date": "2026-05-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:2025年年度股东会会议资料",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202605061821987784.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260507-ad8d",
+      "date": "2026-05-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于召开2025年年度及2026年一季度业绩说明会的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202605061821987198.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260507-6cf1",
+      "date": "2026-05-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于“通22转债”可选择回售的第八次提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202605061821989363.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20260506-e3bc",
       "date": "2026-05-06",
