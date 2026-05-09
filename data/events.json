@@ -1,29 +1,216 @@
 {
-  "generated_at": "2026-05-07T23:58:35.572891+00:00",
+  "generated_at": "2026-05-09T00:20:06.939659+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-07T23:58:34.570778+00:00",
+      "last_success_at": "2026-05-09T00:19:46.569178+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-07T23:58:35.572539+00:00",
+      "last_success_at": "2026-05-09T00:20:06.939001+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-07T23:58:35.572780+00:00",
+      "last_success_at": "2026-05-09T00:20:06.939459+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260509-5d1b",
+      "date": "2026-05-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:上海市锦天城律师事务所关于合盛硅业股份有限公司2025年年度股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605081822076885.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260509-9333",
+      "date": "2026-05-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2025年年度股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605081822076884.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260509-6b48",
+      "date": "2026-05-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司股票交易异常波动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202605081822074231.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260509-a555",
+      "date": "2026-05-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于召开2025年年度暨2026年第一季度业绩说明会的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202605081822072354.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260508-d17b",
+      "date": "2026-05-08",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司投资者关系活动记录表",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202605081822068707.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260508-32fb",
+      "date": "2026-05-08",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于对外提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202605071822034572.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260508-d300",
+      "date": "2026-05-08",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于“通22转债”可选择回售的第九次提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202605071822034574.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260508-1c64",
+      "date": "2026-05-08",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于召开2025年度及2026年第一季度业绩暨2025年度分红说明会的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605071822032525.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260508-83e1",
+      "date": "2026-05-08",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:2025年年度股东会会议资料",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202605071822031052.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260508-2e8a",
+      "date": "2026-05-08",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于第六期以集中竞价交易方式股份回购进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202605071822026709.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260507-7e5f",
       "date": "2026-05-07",
