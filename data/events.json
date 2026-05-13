@@ -1,29 +1,175 @@
 {
-  "generated_at": "2026-05-12T00:03:41.358026+00:00",
+  "generated_at": "2026-05-13T00:06:50.950496+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-12T00:03:39.702297+00:00",
+      "last_success_at": "2026-05-13T00:06:49.504686+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-12T00:03:41.357685+00:00",
+      "last_success_at": "2026-05-13T00:06:50.950149+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-12T00:03:41.357904+00:00",
+      "last_success_at": "2026-05-13T00:06:50.950361+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260513-caa2",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东减持股份计划公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605121822221458.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260513-d298",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于“通22转债”回售结果的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202605121822216981.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260513-2f7a",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于举办投资者现场接待日活动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202605121822216578.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260513-f1d7",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于公司及控股子公司提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202605121822216571.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260513-a34d",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于2024年度奖励基金通过信托购买公司股票实施完毕的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605121822216396.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260513-50fe",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于参加“2026年陕西辖区上市公司投资者集体接待日暨2025年度业绩说明会”的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202605121822213197.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260513-0fa3",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司2025年年度股东会会议资料",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202605121822211268.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260513-a630",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于参加沪市主板新质领航之电子与通信行业2025年度集体业绩说明会的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202605121822210967.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260512-9d88",
       "date": "2026-05-12",
