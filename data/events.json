@@ -1,29 +1,101 @@
 {
-  "generated_at": "2026-05-13T00:06:50.950496+00:00",
+  "generated_at": "2026-05-14T00:08:12.657928+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-13T00:06:49.504686+00:00",
+      "last_success_at": "2026-05-14T00:08:11.061739+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-13T00:06:50.950149+00:00",
+      "last_success_at": "2026-05-14T00:08:12.657597+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-13T00:06:50.950361+00:00",
+      "last_success_at": "2026-05-14T00:08:12.657821+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603938-20260514-d7cb",
+      "date": "2026-05-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:股票交易异常波动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202605131822274626.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260514-ad67",
+      "date": "2026-05-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:北京市天元律师事务所关于唐山三孚硅业股份有限公司2025年年度股东会的法律意见",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202605131822274624.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260514-a00a",
+      "date": "2026-05-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:2025年年度股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202605131822274623.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260514-2ac0",
+      "date": "2026-05-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份2025年年度股东会资料",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202605131822267129.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260513-caa2",
       "date": "2026-05-13",
@@ -166,6 +238,23 @@
         "quartz-sand",
         "optical-preform",
         "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260513-158d",
+      "date": "2026-05-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:2025年年度权益分派实施公告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202605131822276528.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
       ],
       "summary": null,
       "raw_text_excerpt": ""
