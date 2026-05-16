@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-05-15T00:02:43.290463+00:00",
+  "generated_at": "2026-05-16T00:00:02.530679+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-15T00:02:42.007208+00:00",
+      "last_success_at": "2026-05-16T00:00:01.048821+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-15T00:02:43.290139+00:00",
+      "last_success_at": "2026-05-16T00:00:02.530290+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-15T00:02:43.290352+00:00",
+      "last_success_at": "2026-05-16T00:00:02.530507+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
@@ -107,6 +107,23 @@
         "quartz-sand",
         "optical-preform",
         "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260515-ba1f",
+      "date": "2026-05-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:300821东岳硅材投资者关系管理信息20260515",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202605151822349196.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
       ],
       "summary": null,
       "raw_text_excerpt": ""
