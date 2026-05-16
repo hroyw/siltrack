@@ -1,29 +1,66 @@
 {
-  "generated_at": "2026-05-16T00:00:02.530679+00:00",
+  "generated_at": "2026-05-16T23:59:59.056866+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-16T00:00:01.048821+00:00",
+      "last_success_at": "2026-05-16T23:59:57.098570+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-16T00:00:02.530290+00:00",
+      "last_success_at": "2026-05-16T23:59:59.056500+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-16T00:00:02.530507+00:00",
+      "last_success_at": "2026-05-16T23:59:59.056730+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20260516-7caa",
+      "date": "2026-05-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2025年年度股东会会议材料",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605151822352790.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260516-8155",
+      "date": "2026-05-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东一致行动人部分股份质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605151822345361.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20260515-43b3",
       "date": "2026-05-15",
