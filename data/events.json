@@ -1,29 +1,63 @@
 {
-  "generated_at": "2026-05-18T00:02:22.898757+00:00",
+  "generated_at": "2026-05-19T00:14:26.522341+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-18T00:02:21.593194+00:00",
+      "last_success_at": "2026-05-19T00:14:25.006987+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-18T00:02:22.898376+00:00",
+      "last_success_at": "2026-05-19T00:14:26.522010+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-18T00:02:22.898616+00:00",
+      "last_success_at": "2026-05-19T00:14:26.522221+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601869-20260519-f49d",
+      "date": "2026-05-19",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2025年度暨2026年第一季度业绩说明会预告公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202605181822395073.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260518-7b56",
+      "date": "2026-05-18",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:投资者关系活动会议纪要20260515",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605181822394516.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600487-20260516-7caa",
       "date": "2026-05-16",
