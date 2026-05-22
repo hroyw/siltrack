@@ -1,29 +1,97 @@
 {
-  "generated_at": "2026-05-21T00:14:01.075981+00:00",
+  "generated_at": "2026-05-22T00:11:07.722546+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-21T00:13:59.867190+00:00",
+      "last_success_at": "2026-05-22T00:11:06.269079+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-21T00:14:01.075651+00:00",
+      "last_success_at": "2026-05-22T00:11:07.722188+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-21T00:14:01.075861+00:00",
+      "last_success_at": "2026-05-22T00:11:07.722380+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600522-20260522-1304",
+      "date": "2026-05-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:北京市炜衡(南通)律师事务所关于江苏中天科技股份有限公司2025年年度股东会之法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202605211822648300.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260522-5d08",
+      "date": "2026-05-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司2025年年度股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202605211822648301.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260522-9b42",
+      "date": "2026-05-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:上海市方达律师事务所关于新疆大全新能源股份有限公司2025年年度股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202605211822647072.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260522-59c5",
+      "date": "2026-05-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源2025年年度股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202605211822647073.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20260521-9413",
       "date": "2026-05-21",
@@ -287,6 +355,24 @@
       "source_label": "巨潮资讯",
       "title": "三孚股份:股票交易风险提示公告",
       "url": "https://data.eastmoney.com/notices/detail/603938/AN202605201822497577.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260521-9874",
+      "date": "2026-05-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:投资者关系活动记录表2026-001",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202605211822643464.html",
       "event_type": "other",
       "related_nodes": [
         "603938",
