@@ -1,29 +1,101 @@
 {
-  "generated_at": "2026-05-22T00:11:07.722546+00:00",
+  "generated_at": "2026-05-23T00:13:47.514594+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-22T00:11:06.269079+00:00",
+      "last_success_at": "2026-05-23T00:13:46.001255+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-22T00:11:07.722188+00:00",
+      "last_success_at": "2026-05-23T00:13:47.514087+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-22T00:11:07.722380+00:00",
+      "last_success_at": "2026-05-23T00:13:47.514361+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20260523-d149",
+      "date": "2026-05-23",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2025年年度股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605221822691937.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260523-fa8e",
+      "date": "2026-05-23",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2025年年度股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605221822691938.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260523-8013",
+      "date": "2026-05-23",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:2025年年度股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202605221822688295.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260523-7407",
+      "date": "2026-05-23",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于隆基绿能2025年年度股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202605221822688294.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600522-20260522-1304",
       "date": "2026-05-22",
