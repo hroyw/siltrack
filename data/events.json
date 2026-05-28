@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-05-27T00:14:04.402888+00:00",
+  "generated_at": "2026-05-28T00:05:49.460290+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-27T00:14:02.732331+00:00",
+      "last_success_at": "2026-05-28T00:05:47.256716+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-27T00:14:04.402497+00:00",
+      "last_success_at": "2026-05-28T00:05:49.459899+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-27T00:14:04.402736+00:00",
+      "last_success_at": "2026-05-28T00:05:49.460148+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20260528-815e",
+      "date": "2026-05-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于控股股东部分股权解除质押公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605271822913784.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600487-20260523-d149",
       "date": "2026-05-23",
