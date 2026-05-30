@@ -1,29 +1,256 @@
 {
-  "generated_at": "2026-05-29T00:16:48.814437+00:00",
+  "generated_at": "2026-05-30T00:14:00.145963+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-05-29T00:16:47.415159+00:00",
+      "last_success_at": "2026-05-30T00:13:59.037026+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-05-29T00:16:48.814030+00:00",
+      "last_success_at": "2026-05-30T00:14:00.145592+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-05-29T00:16:48.814264+00:00",
+      "last_success_at": "2026-05-30T00:14:00.145781+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20260530-0dab",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于分拆所属子公司上市的一般风险提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030819.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-7a73",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电董事会关于本次分拆所属子公司上市董事会决议日前公司股票价格波动情况的说明",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030816.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-d3bd",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电第九届董事会第十六次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030820.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-4741",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于召开2026年第二次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030817.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-8137",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:上海市锦天城律师事务所关于江苏亨通光电股份有限公司分拆所属子公司江苏亨通华海科技股份有限公司至上海证券交易所科创板上市之法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030811.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-02f1",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电独立董事专门会议对第九届董事会第十六次会议相关事项的审核意见",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030814.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-4c7e",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电董事会关于本次分拆所属子公司江苏亨通华海科技股份有限公司至上海证券交易所科创板上市履行法定程序的完备性、合规性及提交法律文件有效性的说明",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030821.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-1827",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:江苏亨通光电股份有限公司关于分拆所属子公司江苏亨通华海科技股份有限公司至科创板上市的预案",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030815.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-a2bf",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:申万宏源证券承销保荐有限责任公司关于亨通光电分拆所属子公司亨通华海至科创板上市的核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030818.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-6db1",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于控股股东部分股权质押公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030812.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260530-aa79",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:立信会计师事务所(特殊普通合伙)关于亨通光电拟分拆所属子公司亨通华海至科创板上市的专项核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202605291823030813.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260530-16ca",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2025年度可持续发展报告(英文版)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605291823010620.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260530-c2df",
+      "date": "2026-05-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东一致行动人部分股份质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202605291823010529.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603938-20260529-9b36",
       "date": "2026-05-29",
@@ -38,6 +265,25 @@
         "dmc",
         "silicone-oil",
         "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260529-9fe2",
+      "date": "2026-05-29",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:投资者关系活动记录表(2026年5月)",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202605291823019234.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
       ],
       "summary": null,
       "raw_text_excerpt": ""
