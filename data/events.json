@@ -1,29 +1,156 @@
 {
-  "generated_at": "2026-06-02T00:18:36.830376+00:00",
+  "generated_at": "2026-06-03T01:44:09.707845+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-02T00:18:35.484914+00:00",
+      "last_success_at": "2026-06-03T01:44:07.695133+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-02T00:18:36.829913+00:00",
+      "last_success_at": "2026-06-03T01:44:09.707458+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-02T00:18:36.830153+00:00",
+      "last_success_at": "2026-06-03T01:44:09.707669+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603938-20260603-42ef",
+      "date": "2026-06-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于调整2026年员工持股计划购买价格的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202606021823164318.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260603-856a",
+      "date": "2026-06-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:2025年年度权益分派实施公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202606021823164314.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260603-87f5",
+      "date": "2026-06-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:北京市天元律师事务所关于唐山三孚硅业股份有限公司差异化分红事项的专项核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202606021823164315.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260603-58f9",
+      "date": "2026-06-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:北京市天元律师事务所关于唐山三孚硅业股份有限公司2026年员工持股计划调整股票购买价格的法律意见",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202606021823164313.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260603-6b61",
+      "date": "2026-06-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份2026年第一次临时股东会资料",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202606021823162744.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260603-81a0",
+      "date": "2026-06-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于第六期以集中竞价交易方式股份回购进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202606021823160156.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260603-1d1e",
+      "date": "2026-06-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于对外提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202606021823160029.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600487-20260530-0dab",
       "date": "2026-05-30",
