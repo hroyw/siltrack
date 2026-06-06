@@ -1,29 +1,320 @@
 {
-  "generated_at": "2026-06-05T00:16:11.793608+00:00",
+  "generated_at": "2026-06-06T00:14:07.881412+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-05T00:16:10.645137+00:00",
+      "last_success_at": "2026-06-06T00:14:06.002458+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-05T00:16:11.793182+00:00",
+      "last_success_at": "2026-06-06T00:14:07.880918+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-05T00:16:11.793400+00:00",
+      "last_success_at": "2026-06-06T00:14:07.881189+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260606-54e1",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东一致行动人部分股份质押及解质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301438.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-915e",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业第四届董事会第二十次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301435.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-14c2",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2026年员工持股计划管理办法",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301436.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-9029",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:关于合盛硅业股份有限公司向特定对象发行股票申请文件的审核问询函中有关财务事项的说明",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301432.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-a100",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于向特定对象发行股票审核问询函回复的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301434.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-3be9",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于非公开发行公司债券预案的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301429.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-0656",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2026年员工持股计划(草案)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301437.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-7f36",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:关于合盛硅业股份有限公司向特定对象发行股票申请文件的审核问询函之回复报告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301428.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-6225",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业董事会薪酬与考核委员会关于公司2026年员工持股计划相关事项的意见",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301431.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-0489",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2026年员工持股计划(草案)摘要",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301433.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260606-fe25",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于召开2026年第二次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606051823301427.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260606-2bc6",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:股票交易异常波动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202606051823295388.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260606-cc6e",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:股东减持股份结果公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202606051823295390.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260606-2ced",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于股东权益变动触及1%刻度的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202606051823295389.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260606-2f44",
+      "date": "2026-06-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于中标互联网企业数据中心用耗材项目的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202606051823290964.html",
+      "event_type": "order_contract",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601869-20260605-e358",
       "date": "2026-06-05",
