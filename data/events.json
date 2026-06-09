@@ -1,29 +1,65 @@
 {
-  "generated_at": "2026-06-08T00:15:24.707055+00:00",
+  "generated_at": "2026-06-09T00:11:16.580082+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-08T00:15:23.123266+00:00",
+      "last_success_at": "2026-06-09T00:11:15.168764+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-08T00:15:24.706670+00:00",
+      "last_success_at": "2026-06-09T00:11:16.579453+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-08T00:15:24.706886+00:00",
+      "last_success_at": "2026-06-09T00:11:16.579774+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601012-20260609-4247",
+      "date": "2026-06-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于控股股东股份解除质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202606081823358540.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260609-f335",
+      "date": "2026-06-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于董事会延期换届及独立董事任期届满的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202606081823357306.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260606-54e1",
       "date": "2026-06-06",
