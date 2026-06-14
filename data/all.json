@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T00:22:46.562098+00:00",
+  "generatedAt": "2026-06-14T00:13:33.727595+00:00",
   "series": [
     {
       "id": "SI",
@@ -17,10 +17,6 @@
         "688303"
       ],
       "points": [
-        {
-          "date": "2023-06-14",
-          "value": 12565.0
-        },
         {
           "date": "2023-06-15",
           "value": 12445.0
@@ -4410,10 +4406,6 @@
       "relatedStocks": [],
       "points": [
         {
-          "date": "2023-06-14",
-          "value": 30.41
-        },
-        {
           "date": "2023-06-15",
           "value": 31.99
         },
@@ -7300,10 +7292,6 @@
       "upstream": null,
       "relatedStocks": [],
       "points": [
-        {
-          "date": "2023-06-14",
-          "value": 42.09
-        },
         {
           "date": "2023-06-15",
           "value": 42.27
@@ -10212,10 +10200,6 @@
       "relatedStocks": [],
       "points": [
         {
-          "date": "2023-06-14",
-          "value": 28.25
-        },
-        {
           "date": "2023-06-15",
           "value": 30.27
         },
@@ -13122,10 +13106,6 @@
       "upstream": null,
       "relatedStocks": [],
       "points": [
-        {
-          "date": "2023-06-14",
-          "value": 26.63
-        },
         {
           "date": "2023-06-15",
           "value": 28.44
@@ -16090,10 +16070,6 @@
       "relatedStocks": [],
       "points": [
         {
-          "date": "2023-06-14",
-          "value": 65.97
-        },
-        {
           "date": "2023-06-15",
           "value": 68.31
         },
@@ -19000,10 +18976,6 @@
       "upstream": null,
       "relatedStocks": [],
       "points": [
-        {
-          "date": "2023-06-14",
-          "value": 10.19
-        },
         {
           "date": "2023-06-15",
           "value": 10.44
@@ -21912,10 +21884,6 @@
       "relatedStocks": [],
       "points": [
         {
-          "date": "2023-06-14",
-          "value": 9.35
-        },
-        {
           "date": "2023-06-15",
           "value": 9.52
         },
@@ -24822,10 +24790,6 @@
       "upstream": null,
       "relatedStocks": [],
       "points": [
-        {
-          "date": "2023-06-14",
-          "value": 19.05
-        },
         {
           "date": "2023-06-15",
           "value": 19.49
@@ -27776,10 +27740,6 @@
       "relatedStocks": [],
       "points": [
         {
-          "date": "2023-06-14",
-          "value": 34.37
-        },
-        {
           "date": "2023-06-15",
           "value": 35.25
         },
@@ -30687,10 +30647,6 @@
       "relatedStocks": [],
       "points": [
         {
-          "date": "2023-06-14",
-          "value": 13.76
-        },
-        {
           "date": "2023-06-15",
           "value": 14.62
         },
@@ -33597,10 +33553,6 @@
       "upstream": null,
       "relatedStocks": [],
       "points": [
-        {
-          "date": "2023-06-14",
-          "value": 15.24
-        },
         {
           "date": "2023-06-15",
           "value": 15.34
