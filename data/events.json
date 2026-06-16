@@ -1,29 +1,218 @@
 {
-  "generated_at": "2026-06-15T00:17:56.524778+00:00",
+  "generated_at": "2026-06-16T01:44:10.218676+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-15T00:17:55.009001+00:00",
+      "last_success_at": "2026-06-16T01:44:07.902178+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-15T00:17:56.524368+00:00",
+      "last_success_at": "2026-06-16T01:44:10.218249+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-15T00:17:56.524621+00:00",
+      "last_success_at": "2026-06-16T01:44:10.218483+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-688303-20260616-157c",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于注销公司回购股份并减少注册资本暨通知债权人的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202606151823577308.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260616-2a5d",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于完成工商变更登记并换发营业执照的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202606151823577309.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260616-23db",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:新疆大全新能源股份有限公司章程(工商备案版)",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202606151823577305.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260616-3efb",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于召开2026年第一次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202606151823577306.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260616-8c12",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:新疆大全新能源股份有限公司董事和高级管理人员薪酬管理制度(2026年6月修订)",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202606151823577307.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260616-9c8a",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年第二次临时股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606151823576771.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260616-1e0a",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:上海市锦天城律师事务所关于亨通光电分拆所属子公司亨通华海至上海证券交易所科创板上市相关内幕信息知情人买卖股票情况之专项核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606151823576770.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260616-d3f7",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于分拆所属子公司至科创板上市事宜相关内幕信息知情人买卖公司股票情况查询结果的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606151823576767.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260616-196a",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:申万宏源证券承销保荐有限责任公司关于江苏亨通光电股份有限公司分拆所属子公司至科创板上市事宜相关内幕信息知情人买卖公司股票情况查询结果之核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606151823576768.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260616-e750",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年第二次临时股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606151823576769.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260616-6106",
+      "date": "2026-06-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于控股股东股份质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202606151823570166.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603938-20260613-d043",
       "date": "2026-06-13",
