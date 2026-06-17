@@ -1,29 +1,89 @@
 {
-  "generated_at": "2026-06-16T01:44:10.218676+00:00",
+  "generated_at": "2026-06-17T00:23:00.809560+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-16T01:44:07.902178+00:00",
+      "last_success_at": "2026-06-17T00:22:59.171600+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-16T01:44:10.218249+00:00",
+      "last_success_at": "2026-06-17T00:23:00.809095+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-16T01:44:10.218483+00:00",
+      "last_success_at": "2026-06-17T00:23:00.809346+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260617-f79b",
+      "date": "2026-06-17",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业股票交易异常波动公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606161823605608.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260617-2e57",
+      "date": "2026-06-17",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年环境、社会与公司治理报告暨可持续发展报告(英文版)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202606161823601330.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260617-084d",
+      "date": "2026-06-17",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2025年年度报告(英文版)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202606161823601332.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-688303-20260616-157c",
       "date": "2026-06-16",
