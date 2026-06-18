@@ -1,29 +1,67 @@
 {
-  "generated_at": "2026-06-17T00:23:00.809560+00:00",
+  "generated_at": "2026-06-18T00:20:34.317058+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-17T00:22:59.171600+00:00",
+      "last_success_at": "2026-06-18T00:20:33.091619+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-17T00:23:00.809095+00:00",
+      "last_success_at": "2026-06-18T00:20:34.316635+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-17T00:23:00.809346+00:00",
+      "last_success_at": "2026-06-18T00:20:34.316889+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260618-44d0",
+      "date": "2026-06-18",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东一致行动人部分股份质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606171823635074.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260618-58c9",
+      "date": "2026-06-18",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于公司及控股子公司提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202606171823631175.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260617-f79b",
       "date": "2026-06-17",
