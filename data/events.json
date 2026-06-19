@@ -1,29 +1,86 @@
 {
-  "generated_at": "2026-06-18T00:20:34.317058+00:00",
+  "generated_at": "2026-06-19T01:47:53.884296+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-18T00:20:33.091619+00:00",
+      "last_success_at": "2026-06-19T01:47:52.883050+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-18T00:20:34.316635+00:00",
+      "last_success_at": "2026-06-19T01:47:53.883885+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-18T00:20:34.316889+00:00",
+      "last_success_at": "2026-06-19T01:47:53.884112+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260619-bca1",
+      "date": "2026-06-19",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人权益变动触及5%整数倍的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606181823670299.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260619-fcd7",
+      "date": "2026-06-19",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业简式权益变动报告书(宁波合盛集团有限公司)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606181823670290.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260619-270e",
+      "date": "2026-06-19",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于控股股东部分股权质押公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606181823665065.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260618-44d0",
       "date": "2026-06-18",
@@ -58,6 +115,23 @@
         "dmc",
         "silicone-107",
         "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260618-a11b",
+      "date": "2026-06-18",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:2026年4-5月投资者关系活动记录表(1)",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202606181823664765.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
       ],
       "summary": null,
       "raw_text_excerpt": ""
