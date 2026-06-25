@@ -1,29 +1,217 @@
 {
-  "generated_at": "2026-06-24T00:04:18.472496+00:00",
+  "generated_at": "2026-06-25T00:19:19.156203+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-24T00:04:16.524438+00:00",
+      "last_success_at": "2026-06-25T00:19:17.159953+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-24T00:04:18.472055+00:00",
+      "last_success_at": "2026-06-25T00:19:19.155724+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-24T00:04:18.472278+00:00",
+      "last_success_at": "2026-06-25T00:19:19.155989+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20260625-98da",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于拟变更公司注册资本、修订《公司章程》并办理工商变更的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813940.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-88de",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电公司章程(2026年6月修订)",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813942.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-dff4",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于召开2026年第三次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813941.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-80fd",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于2024年限制性股票激励计划第一个解除限售期解除限售条件成就的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813934.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-08bd",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于新增公司2026年度与日常经营生产业务相关的商品期货套期保值业务的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813932.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-5788",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:安徽承义律师事务所关于江苏亨通光电股份有限公司2024年限制性股票激励计划第一个解除限售期解除限售条件成就、回购价格调整并回购注销部分限制性股票事项的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813939.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-2893",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:申万宏源证券承销保荐有限责任公司关于江苏亨通光电股份有限公司2024年限制性股票激励计划第一个解除限售期解除限售条件成就及回购注销部分已获授但尚未解除限售的限制性股票之独立财务顾问报告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813938.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-15cb",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于调整2024年限制性股票激励计划回购价格并回购注销部分限制性股票的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813936.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-a243",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于变更公司财务总监的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813933.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260625-a7e0",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电第九届董事会第十七次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606241823813937.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260625-b974",
+      "date": "2026-06-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:股票交易风险提示公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202606241823812540.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601869-20260624-e442",
       "date": "2026-06-24",
