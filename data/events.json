@@ -1,29 +1,124 @@
 {
-  "generated_at": "2026-06-26T00:15:57.296072+00:00",
+  "generated_at": "2026-06-27T00:15:40.840192+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-26T00:15:54.824760+00:00",
+      "last_success_at": "2026-06-27T00:15:39.537688+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-26T00:15:57.295610+00:00",
+      "last_success_at": "2026-06-27T00:15:40.839720+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-26T00:15:57.295863+00:00",
+      "last_success_at": "2026-06-27T00:15:40.839950+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-002129-20260627-0706",
+      "date": "2026-06-27",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于公司股价异动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202606261824961702.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260627-8b87",
+      "date": "2026-06-27",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:关于合盛硅业股份有限公司向特定对象发行股票申请文件的审核问询函之回复报告(修订稿)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606261824558420.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260627-7006",
+      "date": "2026-06-27",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:关于合盛硅业股份有限公司向特定对象发行股票申请文件的审核问询函中有关财务事项的说明(修订稿)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606261824558421.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260627-6aa0",
+      "date": "2026-06-27",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于向特定对象发行股票审核问询函回复更新的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202606261824558419.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260627-6344",
+      "date": "2026-06-27",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于签订募集资金专户存储之监管协议的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202606261824501951.html",
+      "event_type": "order_contract",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-688303-20260626-0fd1",
       "date": "2026-06-26",
