@@ -1,29 +1,142 @@
 {
-  "generated_at": "2026-06-29T00:13:55.281923+00:00",
+  "generated_at": "2026-06-30T00:11:18.135578+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-06-29T00:13:54.136633+00:00",
+      "last_success_at": "2026-06-30T00:11:16.743933+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-06-29T00:13:55.281448+00:00",
+      "last_success_at": "2026-06-30T00:11:18.135110+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-06-29T00:13:55.281732+00:00",
+      "last_success_at": "2026-06-30T00:11:18.135344+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-002129-20260630-11c7",
+      "date": "2026-06-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于2021年员工持股计划实施完毕暨终止的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202606291826551273.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260630-8cf5",
+      "date": "2026-06-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于公开发行可转换公司债券2026年跟踪评级结果公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202606291826542031.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260630-7880",
+      "date": "2026-06-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于控股股东部分股权解除质押及质押公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202606291826538692.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260630-85b0",
+      "date": "2026-06-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:隆基绿能科技股份有限公司公开发行可转换公司债券2026年跟踪评级报告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202606291826538169.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260630-b33a",
+      "date": "2026-06-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司公开发行可转换公司债券2026年跟踪评级报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202606291826542032.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260630-4113",
+      "date": "2026-06-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于公开发行可转换公司债券2026年跟踪评级结果的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202606291826538168.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20260627-0706",
       "date": "2026-06-27",
