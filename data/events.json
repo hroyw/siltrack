@@ -1,29 +1,119 @@
 {
-  "generated_at": "2026-07-01T00:12:59.825551+00:00",
+  "generated_at": "2026-07-02T00:15:41.886915+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-01T00:12:58.402550+00:00",
+      "last_success_at": "2026-07-02T00:15:39.971586+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-01T00:12:59.825147+00:00",
+      "last_success_at": "2026-07-02T00:15:41.886437+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-01T00:12:59.825383+00:00",
+      "last_success_at": "2026-07-02T00:15:41.886686+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-688303-20260702-8c36",
+      "date": "2026-07-02",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源2026年第一次临时股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202607011826632616.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260702-cc2e",
+      "date": "2026-07-02",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:上海市方达律师事务所关于新疆大全新能源股份有限公司2026年第一次临时股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202607011826632617.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260702-0097",
+      "date": "2026-07-02",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于“通22转债”预计满足转股价格修正条件的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202607011826632454.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260702-a829",
+      "date": "2026-07-02",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于第六期以集中竞价交易方式股份回购进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202607011826632287.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260702-a9aa",
+      "date": "2026-07-02",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于可转债转股结果暨股份变动公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202607011826630800.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601869-20260701-3968",
       "date": "2026-07-01",
