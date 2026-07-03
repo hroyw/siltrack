@@ -1,29 +1,321 @@
 {
-  "generated_at": "2026-07-02T00:15:41.886915+00:00",
+  "generated_at": "2026-07-03T00:12:26.182887+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-02T00:15:39.971586+00:00",
+      "last_success_at": "2026-07-03T00:12:24.467228+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-02T00:15:41.886437+00:00",
+      "last_success_at": "2026-07-03T00:12:26.182400+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-02T00:15:41.886686+00:00",
+      "last_success_at": "2026-07-03T00:12:26.182644+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-002129-20260703-8a21",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于调整2026年度为子公司提供担保预计额度的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668311.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-a9e3",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:中环领先无形资产市场价值资产评估报告(中和谊评报字[2026]90023号)",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668306.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-1e0b",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:中环领先资产市场价值资产评估报告(中和谊评报字[2026]90022号)",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668304.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-20cf",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于对外投资购买股权并增资进展暨交割完成的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668312.html",
+      "event_type": "delivery",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-f561",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:第七届独立董事第十一次专门会议决议",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668310.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-59d3",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:TCL中环新能源科技股份有限公司章程(2026年7月修订)",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668305.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-244d",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于召开2026年第三次临时股东会通知的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668309.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-aac2",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:天津领先资产市场价值资产评估报告(中和谊评报字[2026]90024号)",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668307.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-65f1",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于子公司与关联方共同投资设立合资公司暨关联交易的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668308.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-9254",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于注销部分回购股份并减少注册资本、修订《公司章程》的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668262.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-f35c",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于BC电池及组件基地产能升级改造项目的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668260.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260703-dbc3",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:第七届董事会第二十三次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607021826668261.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260703-cb10",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202607021826666098.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260703-3ddc",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于对外提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202607021826664422.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260703-86c5",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于可转换公司债券转股结果暨股份变动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202607021826664420.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260703-8b85",
+      "date": "2026-07-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于2024年限制性股票激励计划第一个解除限售期解除限售暨上市流通的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607021826663057.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-688303-20260702-8c36",
       "date": "2026-07-02",
