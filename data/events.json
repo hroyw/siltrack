@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-07-06T00:12:18.214702+00:00",
+  "generated_at": "2026-07-07T00:13:59.604159+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-06T00:12:16.714366+00:00",
+      "last_success_at": "2026-07-07T00:13:57.444641+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-06T00:12:18.214161+00:00",
+      "last_success_at": "2026-07-07T00:13:59.603664+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-06T00:12:18.214452+00:00",
+      "last_success_at": "2026-07-07T00:13:59.603899+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-688303-20260706-5f1d",
+      "date": "2026-07-06",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:2026年6月投资者关系活动记录表",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202607061826747669.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260704-8693",
       "date": "2026-07-04",
