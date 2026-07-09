@@ -1,29 +1,100 @@
 {
-  "generated_at": "2026-07-08T00:02:51.893054+00:00",
+  "generated_at": "2026-07-09T00:16:58.683391+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-08T00:02:50.484948+00:00",
+      "last_success_at": "2026-07-09T00:16:57.668455+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-08T00:02:51.892274+00:00",
+      "last_success_at": "2026-07-09T00:16:58.683002+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-08T00:02:51.892647+00:00",
+      "last_success_at": "2026-07-09T00:16:58.683190+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20260709-0148",
+      "date": "2026-07-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于不向下修正“通22转债”转股价格的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202607081826819377.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260709-174a",
+      "date": "2026-07-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司2025年年度权益分派实施公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202607081826815544.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260709-152c",
+      "date": "2026-07-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于2025年度权益分派实施后调整回购价格上限的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202607081826815546.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260709-d487",
+      "date": "2026-07-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:北京市环球律师事务所上海分所关于江苏中天科技股份有限公司差异化权益分派事项的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202607081826815545.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600487-20260708-1ca1",
       "date": "2026-07-08",
@@ -37,6 +108,23 @@
         "quartz-sand",
         "optical-preform",
         "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260708-3581",
+      "date": "2026-07-08",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:股票交易异常波动公告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202607081826818205.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
       ],
       "summary": null,
       "raw_text_excerpt": ""
