@@ -1,29 +1,132 @@
 {
-  "generated_at": "2026-07-13T23:57:58.409082+00:00",
+  "generated_at": "2026-07-14T23:56:55.400853+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-13T23:57:56.981122+00:00",
+      "last_success_at": "2026-07-14T23:56:53.558308+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-13T23:57:58.408625+00:00",
+      "last_success_at": "2026-07-14T23:56:55.400335+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-13T23:57:58.408861+00:00",
+      "last_success_at": "2026-07-14T23:56:55.400573+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-300821-20260714-2e77",
+      "date": "2026-07-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:关于持股5%以上股东减持计划预披露的公告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202607141826962064.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260714-6f90",
+      "date": "2026-07-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:2026年半年度业绩预告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607131826934823.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260714-e406",
+      "date": "2026-07-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年半年度业绩预增公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607131826930254.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260714-2b75",
+      "date": "2026-07-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于回购注销部分限制性股票并减少注册资本通知债权人的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607131826930253.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260714-700f",
+      "date": "2026-07-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:安徽承义律师事务所关于江苏亨通光电股份有限公司召开2026年第三次临时股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607131826930255.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260714-8129",
+      "date": "2026-07-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年第三次临时股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607131826930256.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601869-20260711-2a6c",
       "date": "2026-07-11",
