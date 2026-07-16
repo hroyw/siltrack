@@ -1,29 +1,160 @@
 {
-  "generated_at": "2026-07-14T23:56:55.400853+00:00",
+  "generated_at": "2026-07-16T00:03:57.312888+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-14T23:56:53.558308+00:00",
+      "last_success_at": "2026-07-16T00:03:55.825824+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-14T23:56:55.400335+00:00",
+      "last_success_at": "2026-07-16T00:03:57.312310+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-14T23:56:55.400573+00:00",
+      "last_success_at": "2026-07-16T00:03:57.312552+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603938-20260716-b17f",
+      "date": "2026-07-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于为控股子公司提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202607151826990040.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260715-c2a4",
+      "date": "2026-07-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:2026年半年度业绩预告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202607141826962430.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260715-7489",
+      "date": "2026-07-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2026年度第五期绿色科技创新债券发行结果公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202607141826957848.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260715-703e",
+      "date": "2026-07-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2026年半年度业绩预告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202607141826957852.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260715-d4b8",
+      "date": "2026-07-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2026年半年度业绩预告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202607141826957734.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260715-f50e",
+      "date": "2026-07-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年半年度业绩预增公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202607141826956886.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260715-2ee4",
+      "date": "2026-07-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司2026年半年度业绩预增公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202607141826955210.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-300821-20260714-2e77",
       "date": "2026-07-14",
