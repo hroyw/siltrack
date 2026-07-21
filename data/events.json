@@ -1,29 +1,134 @@
 {
-  "generated_at": "2026-07-20T00:01:55.503135+00:00",
+  "generated_at": "2026-07-21T00:01:10.213212+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-20T00:01:53.704756+00:00",
+      "last_success_at": "2026-07-21T00:01:08.844408+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-20T00:01:55.502612+00:00",
+      "last_success_at": "2026-07-21T00:01:10.212828+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-20T00:01:55.502870+00:00",
+      "last_success_at": "2026-07-21T00:01:10.213043+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-002129-20260721-0b0e",
+      "date": "2026-07-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:2026年第三次临时股东会会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607201827157069.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260721-91c3",
+      "date": "2026-07-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于注销部分回购股份并减少注册资本通知债权人的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607201827157065.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260721-1633",
+      "date": "2026-07-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:北京市嘉源律师事务所关于TCL中环新能源科技股份有限公司2026年第三次临时股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202607201827157089.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260721-5041",
+      "date": "2026-07-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于分拆所属子公司至科创板上市事宜相关内幕信息知情人买卖公司股票情况查询结果进展的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607201827147230.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260721-15ad",
+      "date": "2026-07-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:申万宏源证券承销保荐有限责任公司关于江苏亨通光电股份有限公司分拆所属子公司至科创板上市事宜相关内幕信息知情人买卖公司股票情况查询结果之核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607201827147229.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260721-797f",
+      "date": "2026-07-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:上海市锦天城律师事务所关于江苏亨通光电股份有限公司分拆所属子公司江苏亨通华海科技股份有限公司至上海证券交易所科创板上市相关内幕信息知情人买卖股票情况之专项核查意见(修订稿)",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607201827147232.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20260718-4dca",
       "date": "2026-07-18",
