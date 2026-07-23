@@ -1,29 +1,66 @@
 {
-  "generated_at": "2026-07-21T23:59:25.151198+00:00",
+  "generated_at": "2026-07-23T00:05:01.195737+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-21T23:59:23.516227+00:00",
+      "last_success_at": "2026-07-23T00:05:00.420061+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-21T23:59:25.150633+00:00",
+      "last_success_at": "2026-07-23T00:05:01.195301+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-21T23:59:25.150936+00:00",
+      "last_success_at": "2026-07-23T00:05:01.195524+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20260723-9d3a",
+      "date": "2026-07-23",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于2025年度奖励基金通过信托购买公司股票实施完毕的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202607221827257851.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260723-2a7f",
+      "date": "2026-07-23",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人部分股份质押及解质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202607221827257449.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20260721-0b0e",
       "date": "2026-07-21",
