@@ -1,29 +1,87 @@
 {
-  "generated_at": "2026-07-31T00:07:57.418972+00:00",
+  "generated_at": "2026-08-01T00:06:53.386932+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-07-31T00:07:55.140688+00:00",
+      "last_success_at": "2026-08-01T00:06:51.621072+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-07-31T00:07:57.418592+00:00",
+      "last_success_at": "2026-08-01T00:06:53.386381+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-07-31T00:07:57.418801+00:00",
+      "last_success_at": "2026-08-01T00:06:53.386612+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20260801-94e2",
+      "date": "2026-08-01",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于控股股东股份质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202607311827530076.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260801-3ddd",
+      "date": "2026-08-01",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:第六届董事会2026年第二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202607311827526536.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260801-88ef",
+      "date": "2026-08-01",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于暂不向下修正“隆22转债”转股价格的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202607311827526537.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601869-20260731-6e49",
       "date": "2026-07-31",
@@ -142,6 +200,25 @@
         "silicone-107",
         "silicone-oil",
         "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260731-d857",
+      "date": "2026-07-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:投资者关系活动记录表(2026年7月)",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202607311827526810.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
       ],
       "summary": null,
       "raw_text_excerpt": ""
