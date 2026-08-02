@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-01T00:06:53.386932+00:00",
+  "generated_at": "2026-08-02T00:02:08.751323+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-01T00:06:51.621072+00:00",
+      "last_success_at": "2026-08-02T00:02:07.465111+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-01T00:06:53.386381+00:00",
+      "last_success_at": "2026-08-02T00:02:08.750923+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-01T00:06:53.386612+00:00",
+      "last_success_at": "2026-08-02T00:02:08.751107+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
