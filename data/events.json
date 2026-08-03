@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-08-02T00:02:08.751323+00:00",
+  "generated_at": "2026-08-03T00:03:19.898999+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-02T00:02:07.465111+00:00",
+      "last_success_at": "2026-08-03T00:03:16.691441+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-02T00:02:08.750923+00:00",
+      "last_success_at": "2026-08-03T00:03:19.898404+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-02T00:02:08.751107+00:00",
+      "last_success_at": "2026-08-03T00:03:19.898698+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-688303-20260803-b551",
+      "date": "2026-08-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于实施回购股份注销暨股份变动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202608021827567906.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20260801-94e2",
       "date": "2026-08-01",
