@@ -1,29 +1,64 @@
 {
-  "generated_at": "2026-08-03T00:03:19.898999+00:00",
+  "generated_at": "2026-08-04T00:17:21.664932+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-03T00:03:16.691441+00:00",
+      "last_success_at": "2026-08-04T00:17:18.852835+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-03T00:03:19.898404+00:00",
+      "last_success_at": "2026-08-04T00:17:21.664453+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-03T00:03:19.898698+00:00",
+      "last_success_at": "2026-08-04T00:17:21.664698+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-002129-20260804-bc1b",
+      "date": "2026-08-04",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于回购股份注销完成暨股份变动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202608031827595726.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260804-f22e",
+      "date": "2026-08-04",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司关于子公司拟参与设立私募基金的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608031827589605.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-688303-20260803-b551",
       "date": "2026-08-03",
