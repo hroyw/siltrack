@@ -1,29 +1,105 @@
 {
-  "generated_at": "2026-08-04T00:17:21.664932+00:00",
+  "generated_at": "2026-08-05T00:09:21.524735+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-04T00:17:18.852835+00:00",
+      "last_success_at": "2026-08-05T00:09:19.968340+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-04T00:17:21.664453+00:00",
+      "last_success_at": "2026-08-05T00:09:21.524250+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-04T00:17:21.664698+00:00",
+      "last_success_at": "2026-08-05T00:09:21.524462+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601012-20260805-1918",
+      "date": "2026-08-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608041827625487.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260805-b2b7",
+      "date": "2026-08-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于对外提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202608041827625270.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260805-8709",
+      "date": "2026-08-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人权益变动触及1%刻度的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202608041827621712.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20260805-f897",
+      "date": "2026-08-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于第六期以集中竞价交易方式股份回购进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202608041827620159.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20260804-bc1b",
       "date": "2026-08-04",
