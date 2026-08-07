@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-08-06T00:04:11.765629+00:00",
+  "generated_at": "2026-08-07T01:44:01.503847+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-06T00:04:09.406839+00:00",
+      "last_success_at": "2026-08-07T01:43:58.955612+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-06T00:04:11.765129+00:00",
+      "last_success_at": "2026-08-07T01:44:01.503400+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-06T00:04:11.765366+00:00",
+      "last_success_at": "2026-08-07T01:44:01.503590+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601869-20260807-52c0",
+      "date": "2026-08-07",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司关于股票交易异常波动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608061827711964.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20260806-5bfc",
       "date": "2026-08-06",
