@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-08-07T23:39:13.502744+00:00",
+  "generated_at": "2026-08-08T23:34:24.274213+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-07T23:39:10.230189+00:00",
+      "last_success_at": "2026-08-08T23:34:21.586641+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-07T23:39:13.502152+00:00",
+      "last_success_at": "2026-08-08T23:34:24.273749+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-07T23:39:13.502441+00:00",
+      "last_success_at": "2026-08-08T23:34:24.273967+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260808-a5a1",
+      "date": "2026-08-08",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东一致行动人部分股份解质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202608071827752016.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601869-20260807-52c0",
       "date": "2026-08-07",
