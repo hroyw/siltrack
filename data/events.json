@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-08-10T23:40:02.420220+00:00",
+  "generated_at": "2026-08-11T23:47:26.559630+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-10T23:40:00.381932+00:00",
+      "last_success_at": "2026-08-11T23:47:23.404209+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-10T23:40:02.419761+00:00",
+      "last_success_at": "2026-08-11T23:47:26.559115+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-10T23:40:02.419972+00:00",
+      "last_success_at": "2026-08-11T23:47:26.559357+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20260811-56bc",
+      "date": "2026-08-11",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于发行股份及支付现金购买资产并募集配套资金的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202608101827814037.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260808-a5a1",
       "date": "2026-08-08",
