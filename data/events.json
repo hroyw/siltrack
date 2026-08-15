@@ -1,29 +1,64 @@
 {
-  "generated_at": "2026-08-14T23:27:28.792616+00:00",
+  "generated_at": "2026-08-15T23:26:38.376525+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-14T23:27:24.614965+00:00",
+      "last_success_at": "2026-08-15T23:26:36.261468+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-14T23:27:28.792109+00:00",
+      "last_success_at": "2026-08-15T23:26:38.376116+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-14T23:27:28.792349+00:00",
+      "last_success_at": "2026-08-15T23:26:38.376308+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601869-20260815-8157",
+      "date": "2026-08-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2025年年度A股权益分派实施公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608141827986277.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260815-88b3",
+      "date": "2026-08-15",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于公司及控股子公司提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202608141827986001.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260812-3ef1",
       "date": "2026-08-12",
