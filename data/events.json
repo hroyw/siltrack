@@ -1,29 +1,322 @@
 {
-  "generated_at": "2026-08-20T23:31:17.206255+00:00",
+  "generated_at": "2026-08-21T23:31:18.932970+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-20T23:31:13.848773+00:00",
+      "last_success_at": "2026-08-21T23:31:16.643524+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-20T23:31:17.205832+00:00",
+      "last_success_at": "2026-08-21T23:31:18.932578+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-20T23:31:17.206044+00:00",
+      "last_success_at": "2026-08-21T23:31:18.932767+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-300821-20260821-e097",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:关于2026年半年度计提资产减值准备及核销资产的公告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828215659.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260821-29a5",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:2026年半年度非经营性资金占用及其他关联资金往来情况汇总表",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828215678.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260821-248e",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:2026年半年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828215656.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260821-2112",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:关于公司会计政策变更的公告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828215689.html",
+      "event_type": "policy",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260821-3924",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:2026年半年度报告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828215686.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260821-5d8d",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:董事会薪酬与考核委员会关于调整2024年限制性股票激励计划授予价格的核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828214824.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260821-cbf4",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:北京市金杜(青岛)律师事务所关于山东东岳有机硅材料股份有限公司2024年限制性股票激励计划授予价格调整事项的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828214823.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260821-0f71",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:关于调整2024年限制性股票激励计划授予价格的公告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828214700.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260821-fea1",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源2026年半年度报告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202608201828214580.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260821-9a40",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于2026年半年度计提资产减值准备的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202608201828214579.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260821-12b4",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:新疆大全新能源股份有限公司2026年度“提质增效重回报”行动方案的半年度评估报告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202608201828214578.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260821-4d4e",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源2026年半年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202608201828214581.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260821-f04e",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:2026年半年度主要经营数据公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202608201828208336.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260821-8c09",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于计提资产减值准备的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202608201828208341.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260821-223e",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:2026年半年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202608201828208335.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260821-257d",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:2026年半年度报告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202608201828208337.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20260821-246a",
+      "date": "2026-08-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:第三届董事会第二十次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202608201828215671.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260818-f1bf",
       "date": "2026-08-18",
