@@ -1,29 +1,151 @@
 {
-  "generated_at": "2026-08-21T23:31:18.932970+00:00",
+  "generated_at": "2026-08-22T23:27:47.967705+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-21T23:31:16.643524+00:00",
+      "last_success_at": "2026-08-22T23:27:45.833868+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-21T23:31:18.932578+00:00",
+      "last_success_at": "2026-08-22T23:27:47.967293+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-21T23:31:18.932767+00:00",
+      "last_success_at": "2026-08-22T23:27:47.967489+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601869-20260822-e9bb",
+      "date": "2026-08-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年半年度报告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608211828278355.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260822-979c",
+      "date": "2026-08-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司第五届董事会第二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608211828278359.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260822-33a4",
+      "date": "2026-08-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年H股股份奖励计划",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608211828278358.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260822-5477",
+      "date": "2026-08-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年半年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608211828278357.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260822-eb04",
+      "date": "2026-08-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年中期利润分配方案公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608211828278356.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260822-34f2",
+      "date": "2026-08-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2026年度第六期绿色超短期融资券发行结果公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202608211828271068.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260822-de0c",
+      "date": "2026-08-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于控股股东部分股权解除质押及质押公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202608211828265645.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-300821-20260821-e097",
       "date": "2026-08-21",
