@@ -1,29 +1,189 @@
 {
-  "generated_at": "2026-08-24T23:28:39.739976+00:00",
+  "generated_at": "2026-08-25T23:30:56.943028+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-24T23:28:37.739843+00:00",
+      "last_success_at": "2026-08-25T23:30:54.289526+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-24T23:28:39.739483+00:00",
+      "last_success_at": "2026-08-25T23:30:56.942550+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-24T23:28:39.739707+00:00",
+      "last_success_at": "2026-08-25T23:30:56.942773+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600596-20260825-ce03",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份2026年第二季度主要经营数据公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202608241828365217.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260825-4da0",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于2026年半年度计提资产减值准备的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202608241828365216.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260825-cfb8",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份第十二届董事会第二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202608241828365214.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260825-6435",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份2026年半年度报告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202608241828365215.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260825-7ed6",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于对传化集团财务有限公司的风险持续评估报告的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202608241828365213.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260825-d9b6",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份2026年半年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202608241828365211.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260825-1430",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于2026年半年度募集资金存放、管理与实际使用情况的专项报告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202608241828365212.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260825-b31d",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司关于召开2026年第二次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608241828360508.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20260825-ec47",
+      "date": "2026-08-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年第二次临时股东会会议资料",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202608241828360507.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601869-20260822-e9bb",
       "date": "2026-08-22",
