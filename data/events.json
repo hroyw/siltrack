@@ -1,29 +1,216 @@
 {
-  "generated_at": "2026-08-30T01:14:36.133777+00:00",
+  "generated_at": "2026-08-31T01:17:08.345402+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-30T01:14:34.082395+00:00",
+      "last_success_at": "2026-08-31T01:17:06.514599+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-30T01:14:36.133346+00:00",
+      "last_success_at": "2026-08-31T01:17:08.344933+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-30T01:14:36.133551+00:00",
+      "last_success_at": "2026-08-31T01:17:08.345148+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601012-20260831-9c8e",
+      "date": "2026-08-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:第六届董事会2026年第三次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608301828734099.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260831-e13e",
+      "date": "2026-08-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:2026年度“提质增效重回报”行动方案半年度评估报告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608301828734136.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260831-13df",
+      "date": "2026-08-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:2026年半年度报告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608301828733975.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260831-2d05",
+      "date": "2026-08-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:2026年半年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608301828734135.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260831-98d8",
+      "date": "2026-08-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:《董事会秘书工作细则》修订对照表",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608301828733893.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260831-43c7",
+      "date": "2026-08-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:募集资金2026年半年度存放、管理与实际使用情况的专项报告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608301828734193.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260831-a017",
+      "date": "2026-08-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:董事会秘书工作细则",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608301828734606.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260831-b237",
+      "date": "2026-08-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于会计政策变更的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202608301828733984.html",
+      "event_type": "policy",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20260830-62b9",
+      "date": "2026-08-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:2026年8月28日投资者关系活动记录表",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202608301828745228.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260829-dd97",
+      "date": "2026-08-29",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于完成工商变更登记并换发营业执照的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202608281828626150.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600596-20260825-ce03",
       "date": "2026-08-25",
