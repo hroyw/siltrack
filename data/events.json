@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-08-31T01:17:08.345402+00:00",
+  "generated_at": "2026-09-01T01:45:28.153522+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-08-31T01:17:06.514599+00:00",
+      "last_success_at": "2026-09-01T01:45:27.333054+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-08-31T01:17:08.344933+00:00",
+      "last_success_at": "2026-09-01T01:45:28.153182+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-08-31T01:17:08.345148+00:00",
+      "last_success_at": "2026-09-01T01:45:28.153349+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260901-39ce",
+      "date": "2026-09-01",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2026年半年度业绩说明会预告公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202608311828804345.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601012-20260831-9c8e",
       "date": "2026-08-31",
