@@ -1,29 +1,69 @@
 {
-  "generated_at": "2026-09-02T00:56:19.487212+00:00",
+  "generated_at": "2026-09-03T01:02:50.526183+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-09-02T00:56:17.369121+00:00",
+      "last_success_at": "2026-09-03T01:02:49.260712+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-09-02T00:56:19.486793+00:00",
+      "last_success_at": "2026-09-03T01:02:50.525627+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-09-02T00:56:19.486980+00:00",
+      "last_success_at": "2026-09-03T01:02:50.525893+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20260903-f62a",
+      "date": "2026-09-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:联合资信评估股份有限公司关于通威股份有限公司2026年半年度亏损的关注公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202609021828930018.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260903-d479",
+      "date": "2026-09-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于对外提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202609021828927812.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600522-20260902-2a9d",
       "date": "2026-09-02",
@@ -72,6 +112,23 @@
         "dmc",
         "silicone-oil",
         "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20260902-8bde",
+      "date": "2026-09-02",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:2026年8月投资者关系活动记录表",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202609021828921419.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
       ],
       "summary": null,
       "raw_text_excerpt": ""
