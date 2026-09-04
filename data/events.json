@@ -1,29 +1,107 @@
 {
-  "generated_at": "2026-09-03T01:02:50.526183+00:00",
+  "generated_at": "2026-09-04T00:53:20.513864+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-09-03T01:02:49.260712+00:00",
+      "last_success_at": "2026-09-04T00:53:18.892106+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-09-03T01:02:50.525627+00:00",
+      "last_success_at": "2026-09-04T00:53:20.513293+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-09-03T01:02:50.525893+00:00",
+      "last_success_at": "2026-09-04T00:53:20.513545+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260904-acc6",
+      "date": "2026-09-04",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业控股股东减持股份结果公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609031828964148.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260904-a9cd",
+      "date": "2026-09-04",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人部分股份解质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609031828964149.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260904-afdd",
+      "date": "2026-09-04",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于完成工商变更登记的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202609031828962063.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20260904-8827",
+      "date": "2026-09-04",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202609031828962062.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20260903-f62a",
       "date": "2026-09-03",
