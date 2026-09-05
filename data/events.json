@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-09-04T00:53:20.513864+00:00",
+  "generated_at": "2026-09-05T00:46:42.539971+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-09-04T00:53:18.892106+00:00",
+      "last_success_at": "2026-09-05T00:46:41.341889+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-09-04T00:53:20.513293+00:00",
+      "last_success_at": "2026-09-05T00:46:42.539533+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-09-04T00:53:20.513545+00:00",
+      "last_success_at": "2026-09-05T00:46:42.539727+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20260905-dec4",
+      "date": "2026-09-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于参加举办四川辖区2026年投资者网上集体接待日及半年度报告业绩说明会活动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202609041829015252.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260904-acc6",
       "date": "2026-09-04",
