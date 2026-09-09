@@ -1,29 +1,81 @@
 {
-  "generated_at": "2026-09-08T01:02:53.055618+00:00",
+  "generated_at": "2026-09-09T01:08:17.489385+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-09-08T01:02:51.611867+00:00",
+      "last_success_at": "2026-09-09T01:08:16.186859+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-09-08T01:02:53.055137+00:00",
+      "last_success_at": "2026-09-09T01:08:17.488883+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-09-08T01:02:53.055382+00:00",
+      "last_success_at": "2026-09-09T01:08:17.489097+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20260909-a128",
+      "date": "2026-09-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年第四次临时股东会会议材料",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202609081829133543.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20260909-270e",
+      "date": "2026-09-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于召开2026年半年度业绩说明会的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202609081829133308.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20260909-9b32",
+      "date": "2026-09-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于召开2026年半年度业绩说明会的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202609081829133250.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20260905-dec4",
       "date": "2026-09-05",
