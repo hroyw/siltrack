@@ -1,29 +1,245 @@
 {
-  "generated_at": "2026-09-09T01:08:17.489385+00:00",
+  "generated_at": "2026-09-10T00:56:58.906537+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-09-09T01:08:16.186859+00:00",
+      "last_success_at": "2026-09-10T00:56:57.666817+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-09-09T01:08:17.488883+00:00",
+      "last_success_at": "2026-09-10T00:56:58.905983+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-09-09T01:08:17.489097+00:00",
+      "last_success_at": "2026-09-10T00:56:58.906240+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260910-7279",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:中国银河证券股份有限公司关于合盛硅业股份有限公司向特定对象发行股票之发行保荐书(2026年半年报财务数据更新版本)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829178518.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260910-03f3",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:上海市锦天城律师事务所关于合盛硅业股份有限公司向特定对象发行股票的补充法律意见书(一)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829178517.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260910-41ca",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:关于合盛硅业股份有限公司向特定对象发行股票申请文件的审核问询函中有关财务事项的说明(修订稿)(2026年半年报财务数据更新版本)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829178514.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260910-1bd6",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:天健会计师事务所(特殊普通合伙)关于合盛硅业股份有限公司向特定对象发行股票的财务报告及审计报告(2026年半年报财务数据更新版本)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829178515.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260910-92f5",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:关于合盛硅业股份有限公司向特定对象发行股票申请文件的审核问询函之回复报告(修订稿)(2026年半年报财务数据更新版本)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829178516.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260910-abb0",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:中国银河证券股份有限公司关于合盛硅业股份有限公司向特定对象发行股票之上市保荐书(2026年半年报财务数据更新版本)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829178519.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260910-cc6c",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业股份有限公司向特定对象发行股票证券募集说明书(申报稿)(2026年半年报财务数据更新版本)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829178512.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260910-b354",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于向特定对象发行股票募集说明书等申请文件更新的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829178513.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260910-1b8a",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于参加2026年河北辖区上市公司投资者网上集体接待日暨2026年半年报集体业绩说明会的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609091829175450.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260910-9c8e",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于2026年半年度业绩说明会召开情况的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609091829175446.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260910-e4dc",
+      "date": "2026-09-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于发行股份及支付现金购买资产并募集配套资金事项的进展暨无法在规定时间内发出召开股东会通知的专项说明",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202609091829173178.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600487-20260909-a128",
       "date": "2026-09-09",
@@ -72,6 +288,26 @@
         "dmc",
         "silicone-107",
         "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260909-63cd",
+      "date": "2026-09-09",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:2026年09月08日投资者关系活动记录表(2026年半年度业绩说明会)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609091829173081.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
       ],
       "summary": null,
       "raw_text_excerpt": ""
