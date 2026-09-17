@@ -1,29 +1,47 @@
 {
-  "generated_at": "2026-09-16T01:12:29.232690+00:00",
+  "generated_at": "2026-09-17T01:14:24.273375+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-09-16T01:12:27.526610+00:00",
+      "last_success_at": "2026-09-17T01:14:21.665142+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-09-16T01:12:29.232215+00:00",
+      "last_success_at": "2026-09-17T01:14:24.272991+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-09-16T01:12:29.232434+00:00",
+      "last_success_at": "2026-09-17T01:14:24.273169+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600596-20260917-ea0d",
+      "date": "2026-09-17",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于公司及控股子公司提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202609161829463715.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-688303-20260916-cd3b",
       "date": "2026-09-16",
@@ -37,6 +55,26 @@
         "SI",
         "PS",
         "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20260916-94ca",
+      "date": "2026-09-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司投资者关系活动记录表(2026年9月11日)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202609161829460817.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
       ],
       "summary": null,
       "raw_text_excerpt": ""
