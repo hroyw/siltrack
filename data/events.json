@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-09-18T01:09:29.553398+00:00",
+  "generated_at": "2026-09-19T01:03:41.187824+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-09-18T01:09:26.173678+00:00",
+      "last_success_at": "2026-09-19T01:03:38.698445+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-09-18T01:09:29.552965+00:00",
+      "last_success_at": "2026-09-19T01:03:41.187277+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-09-18T01:09:29.553150+00:00",
+      "last_success_at": "2026-09-19T01:03:41.187503+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601869-20260919-0fb3",
+      "date": "2026-09-19",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年半年度业绩说明会预告公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202609181829615096.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603260-20260918-02dc",
       "date": "2026-09-18",
