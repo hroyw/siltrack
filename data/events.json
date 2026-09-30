@@ -1,29 +1,347 @@
 {
-  "generated_at": "2026-09-29T02:32:22.476736+00:00",
+  "generated_at": "2026-09-30T01:55:32.444583+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-09-29T02:32:20.907760+00:00",
+      "last_success_at": "2026-09-30T01:55:30.904056+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-09-29T02:32:22.476276+00:00",
+      "last_success_at": "2026-09-30T01:55:32.443974+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-09-29T02:32:22.476476+00:00",
+      "last_success_at": "2026-09-30T01:55:32.444258+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-603260-20260930-12d4",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于公司独立董事辞任暨补选独立董事并调整董事会专门委员会组成的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609291829998331.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260930-747d",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于召开2026年第三次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609291829998330.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260930-db65",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业第四届董事会第二十二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609291829998332.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260930-2c46",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:独立董事候选人声明与承诺(杨晓勇)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609291829998328.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260930-d63a",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东部分股份质押及解质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609291829998329.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20260930-d154",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:独立董事提名人声明与承诺(杨晓勇)",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202609291829998327.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-596b",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:独立董事提名人声明与承诺-段厚省",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997485.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-153d",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:独立董事候选人声明与承诺-段厚省",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997481.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-b38c",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:独立董事候选人声明与承诺-黄荣华",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997479.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-45e6",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于选举第六届董事会职工董事的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997487.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-e69e",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:第五届董事会第二十四次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997488.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-cb76",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:独立董事候选人声明与承诺-张艳荣",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997484.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-7ca4",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:独立董事提名人声明与承诺-黄荣华",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997483.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-cb46",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于续聘会计师事务所的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997478.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-c820",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于召开2026年第一次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997480.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-7c7e",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:提名委员会关于第六届董事会董事候选人的提名审查意见",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997482.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20260930-bb8e",
+      "date": "2026-09-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:独立董事提名人声明与承诺-张艳荣",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202609291829997486.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20260929-84d7",
       "date": "2026-09-29",
