@@ -1,29 +1,125 @@
 {
-  "generated_at": "2026-10-09T02:52:25.692573+00:00",
+  "generated_at": "2026-10-10T02:12:59.937413+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-10-09T02:52:23.562028+00:00",
+      "last_success_at": "2026-10-10T02:12:58.098904+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-10-09T02:52:25.692022+00:00",
+      "last_success_at": "2026-10-10T02:12:59.936776+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-10-09T02:52:25.692233+00:00",
+      "last_success_at": "2026-10-10T02:12:59.937030+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-002129-20261010-1e7e",
+      "date": "2026-10-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于回购公司股份比例达到1%的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202610091830272268.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261010-b6b1",
+      "date": "2026-10-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于对外提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202610091830266536.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261010-ac8c",
+      "date": "2026-10-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于发行股份及支付现金购买资产并募集配套资金的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202610091830266537.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261010-5314",
+      "date": "2026-10-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于可转换公司债券转股结果暨股份变动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202610091830266535.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20261010-83ec",
+      "date": "2026-10-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:2026年第一次临时股东会会议资料",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202610091830263140.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20261009-5baa",
       "date": "2026-10-09",
