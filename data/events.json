@@ -1,29 +1,63 @@
 {
-  "generated_at": "2026-10-12T02:11:53.837425+00:00",
+  "generated_at": "2026-10-13T03:26:14.465022+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-10-12T02:11:50.820555+00:00",
+      "last_success_at": "2026-10-13T03:26:13.232204+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-10-12T02:11:53.836809+00:00",
+      "last_success_at": "2026-10-13T03:26:14.464469+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-10-12T02:11:53.837056+00:00",
+      "last_success_at": "2026-10-13T03:26:14.464705+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20261013-3591",
+      "date": "2026-10-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年第五次临时股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202610121830366245.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261013-6a0b",
+      "date": "2026-10-13",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:安徽承义律师事务所关于江苏亨通光电股份有限公司召开2026年第五次临时股东会的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202610121830366244.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601012-20261012-9965",
       "date": "2026-10-12",
@@ -39,6 +73,23 @@
         "wafer-m10",
         "cell-topcon",
         "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-300821-20261012-0dd3",
+      "date": "2026-10-12",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "东岳硅材:股票交易异常波动公告",
+      "url": "https://data.eastmoney.com/notices/detail/300821/AN202610121830370941.html",
+      "event_type": "other",
+      "related_nodes": [
+        "300821",
+        "SI",
+        "dmc",
+        "silicone-107"
       ],
       "summary": null,
       "raw_text_excerpt": ""
