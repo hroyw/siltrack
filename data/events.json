@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-10-15T01:19:22.643661+00:00",
+  "generated_at": "2026-10-16T01:05:15.987713+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-10-15T01:19:20.733152+00:00",
+      "last_success_at": "2026-10-16T01:05:14.132298+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-10-15T01:19:22.643222+00:00",
+      "last_success_at": "2026-10-16T01:05:15.987274+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-10-15T01:19:22.643430+00:00",
+      "last_success_at": "2026-10-16T01:05:15.987453+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600522-20261016-e780",
+      "date": "2026-10-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于第六期以集中竞价交易方式股份回购进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202610151830513424.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-300821-20261014-8be3",
       "date": "2026-10-14",
