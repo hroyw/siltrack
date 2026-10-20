@@ -1,29 +1,85 @@
 {
-  "generated_at": "2026-10-19T00:58:56.105336+00:00",
+  "generated_at": "2026-10-20T01:39:29.534512+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-10-19T00:58:54.588158+00:00",
+      "last_success_at": "2026-10-20T01:39:27.861384+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-10-19T00:58:56.104729+00:00",
+      "last_success_at": "2026-10-20T01:39:29.533936+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-10-19T00:58:56.105023+00:00",
+      "last_success_at": "2026-10-20T01:39:29.534154+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601012-20261020-757f",
+      "date": "2026-10-20",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:中国国际金融股份有限公司关于隆基绿能科技股份有限公司可转换公司债券回售有关事项的核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202610191830685544.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261020-8798",
+      "date": "2026-10-20",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于“隆22转债”可选择回售的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202610191830685545.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20261020-41ee",
+      "date": "2026-10-20",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于受让私募基金认购份额暨共同投资关联交易的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202610191830684588.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-603938-20261017-e1bb",
       "date": "2026-10-17",
