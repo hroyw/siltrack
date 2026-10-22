@@ -1,29 +1,48 @@
 {
-  "generated_at": "2026-10-21T01:25:05.610216+00:00",
+  "generated_at": "2026-10-22T01:23:36.415129+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-10-21T01:25:03.971621+00:00",
+      "last_success_at": "2026-10-22T01:23:34.522319+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-10-21T01:25:05.609663+00:00",
+      "last_success_at": "2026-10-22T01:23:36.414627+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-10-21T01:25:05.609898+00:00",
+      "last_success_at": "2026-10-22T01:23:36.414839+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601012-20261022-0d50",
+      "date": "2026-10-22",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于“隆22转债”可选择回售的第一次提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202610211830759237.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601012-20261020-757f",
       "date": "2026-10-20",
