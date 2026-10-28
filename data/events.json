@@ -1,29 +1,136 @@
 {
-  "generated_at": "2026-10-27T01:55:57.300445+00:00",
+  "generated_at": "2026-10-28T02:06:35.702207+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-10-27T01:55:55.051011+00:00",
+      "last_success_at": "2026-10-28T02:06:31.978734+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-10-27T01:55:57.299964+00:00",
+      "last_success_at": "2026-10-28T02:06:35.701703+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-10-27T01:55:57.300163+00:00",
+      "last_success_at": "2026-10-28T02:06:35.701913+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-688303-20261028-de8b",
+      "date": "2026-10-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于2026年第三季度计提资产减值准备的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202610271831036328.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-688303-20261028-d4ae",
+      "date": "2026-10-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源2026年第三季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202610271831036327.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20261028-cd5e",
+      "date": "2026-10-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:2026-052新安股份关于2026年前三季度计提资产减值准备的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202610271831031721.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20261028-049c",
+      "date": "2026-10-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:2026-051新安股份2026年第三季度主要经营数据公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202610271831031720.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20261028-a928",
+      "date": "2026-10-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份2026年第三季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202610271831031719.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261028-ec5a",
+      "date": "2026-10-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于“隆22转债”可选择回售的第六次提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202610271831026702.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601012-20261027-bfde",
       "date": "2026-10-27",
