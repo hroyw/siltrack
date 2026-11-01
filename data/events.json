@@ -1,29 +1,195 @@
 {
-  "generated_at": "2026-10-31T02:13:32.230365+00:00",
+  "generated_at": "2026-11-01T02:02:26.130324+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-10-31T02:13:30.301107+00:00",
+      "last_success_at": "2026-11-01T02:02:23.957748+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-10-31T02:13:32.229889+00:00",
+      "last_success_at": "2026-11-01T02:02:26.129773+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-10-31T02:13:32.230092+00:00",
+      "last_success_at": "2026-11-01T02:02:26.130021+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601869-20261031-a2c3",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司关于增加2026年度日常关联交易额度及预计2027年度日常关联交易额度的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202610301831241648.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20261031-d539",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年第三季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202610301831241649.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601869-20261031-c7a6",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司第五届董事会第三次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202610301831241647.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261031-502b",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2026年第三季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202610301831239399.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20261031-567d",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人部分股份质押及解质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202610301831234733.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261031-234d",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:2026年第三季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202610301831232498.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261031-37a3",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:第六届董事会2026年第五次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202610301831232505.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261031-bc91",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于2026年前三季度计提资产减值准备的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202610301831232497.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20261031-eb55",
+      "date": "2026-10-31",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于召开2026年第三季度业绩说明会的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202610301831228270.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20261030-41fd",
       "date": "2026-10-30",
@@ -229,6 +395,24 @@
         "quartz-sand",
         "optical-preform",
         "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261030-0b91",
+      "date": "2026-10-30",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于筹划发行股份购买资产暨关联交易事项的停牌公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202610301831250847.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
       ],
       "summary": null,
       "raw_text_excerpt": ""
