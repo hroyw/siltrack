@@ -1,29 +1,63 @@
 {
-  "generated_at": "2026-11-02T02:13:19.001320+00:00",
+  "generated_at": "2026-11-03T03:53:36.640244+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-02T02:13:17.709543+00:00",
+      "last_success_at": "2026-11-03T03:53:34.415167+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-02T02:13:19.000773+00:00",
+      "last_success_at": "2026-11-03T03:53:36.639659+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-02T02:13:19.001011+00:00",
+      "last_success_at": "2026-11-03T03:53:36.639895+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601869-20261103-05ed",
+      "date": "2026-11-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "长飞光纤:长飞光纤光缆股份有限公司2026年半年度A股权益分派实施公告",
+      "url": "https://data.eastmoney.com/notices/detail/601869/AN202611021831332675.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601869",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600522-20261103-a92f",
+      "date": "2026-11-03",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "中天科技:江苏中天科技股份有限公司关于第六期以集中竞价交易方式股份回购进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600522/AN202611021831321255.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600522",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20261102-aaca",
       "date": "2026-11-02",
