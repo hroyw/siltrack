@@ -1,29 +1,276 @@
 {
-  "generated_at": "2026-11-04T02:58:29.008250+00:00",
+  "generated_at": "2026-11-05T03:20:52.353893+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-04T02:58:27.269308+00:00",
+      "last_success_at": "2026-11-05T03:20:49.912141+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-04T02:58:29.007735+00:00",
+      "last_success_at": "2026-11-05T03:20:52.353333+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-04T02:58:29.007939+00:00",
+      "last_success_at": "2026-11-05T03:20:52.353562+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20261105-1a1e",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于控股股东增持公司股份计划的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417131.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-a3ca",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年员工持股计划草案修订稿摘要公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417133.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-2096",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电薪酬与考核委员会关于公司2026年员工持股计划相关修订事项的审核意见",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417139.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-20b4",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:申万宏源证券承销保荐有限责任公司关于江苏亨通光电股份有限公司2026年员工持股计划(草案修订稿)之独立财务顾问报告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417137.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-4236",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年员工持股计划管理办法(修订稿)",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417132.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-70b1",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电第九届董事会第二十一次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417140.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-5718",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电2026年员工持股计划(草案修订稿)",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417134.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-b7f5",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:安徽承义律师事务所关于江苏亨通光电股份有限公司修订2026年员工持股计划相关事项的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417138.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-7c39",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于公司2026年员工持股计划(草案)及相关文件的修订说明公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417135.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261105-a7bc",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于以集中竞价交易方式回购股份方案暨回购报告书",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611041831417136.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261105-ddae",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于“隆22转债”回售结果的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611041831413538.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261105-173b",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于“隆22转债”预计满足转股价格向下修正条件的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611041831413429.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261105-7051",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611041831413430.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20261105-24a4",
+      "date": "2026-11-05",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业2026年第三季度业绩说明会预告公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202611041831408600.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20261104-d339",
       "date": "2026-11-04",
