@@ -1,29 +1,81 @@
 {
-  "generated_at": "2026-11-09T02:29:58.991171+00:00",
+  "generated_at": "2026-11-10T04:32:14.469891+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-09T02:29:56.781817+00:00",
+      "last_success_at": "2026-11-10T04:32:12.409005+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-09T02:29:58.990702+00:00",
+      "last_success_at": "2026-11-10T04:32:14.469404+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-09T02:29:58.990909+00:00",
+      "last_success_at": "2026-11-10T04:32:14.469610+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20261110-765f",
+      "date": "2026-11-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于召开2026年第三季度业绩说明会的提示性公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611091831558254.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261110-cf6b",
+      "date": "2026-11-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于回购事项前十大股东和前十大无限售条件股东持股情况的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611091831558253.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603938-20261110-840e",
+      "date": "2026-11-10",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "三孚股份:关于2026年第三季度业绩说明会召开情况的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603938/AN202611091831555607.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603938",
+        "SI",
+        "dmc",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20261107-a847",
       "date": "2026-11-07",
