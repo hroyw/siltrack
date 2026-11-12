@@ -1,29 +1,84 @@
 {
-  "generated_at": "2026-11-11T02:39:39.227502+00:00",
+  "generated_at": "2026-11-12T03:42:43.199030+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-11T02:39:22.679607+00:00",
+      "last_success_at": "2026-11-12T03:42:24.007483+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-11T02:39:39.226967+00:00",
+      "last_success_at": "2026-11-12T03:42:43.198534+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-11T02:39:39.227178+00:00",
+      "last_success_at": "2026-11-12T03:42:43.198727+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20261112-6e09",
+      "date": "2026-11-12",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于与专业投资机构共同成立产业投资基金的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611111831632289.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261112-703c",
+      "date": "2026-11-12",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:第六届董事会2026年第六次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611111831629953.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261112-7fd2",
+      "date": "2026-11-12",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于董事会提议向下修正“隆22转债”转股价格的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611111831629954.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600487-20261110-765f",
       "date": "2026-11-10",
