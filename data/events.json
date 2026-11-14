@@ -1,29 +1,337 @@
 {
-  "generated_at": "2026-11-13T03:20:02.156762+00:00",
+  "generated_at": "2026-11-14T02:58:59.865156+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-13T03:20:00.459684+00:00",
+      "last_success_at": "2026-11-14T02:58:57.363558+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-13T03:20:02.156264+00:00",
+      "last_success_at": "2026-11-14T02:58:59.864475+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-13T03:20:02.156465+00:00",
+      "last_success_at": "2026-11-14T02:58:59.864753+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-002129-20261114-4bdb",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于本次交易是否构成重大资产重组、关联交易及重组上市的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701129.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-e7d0",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:第七届董事会第二十八次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701132.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-626d",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于本次交易相关主体不存在不得参与上市公司重大资产重组情形的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701141.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-0a56",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于本次交易前12个月内购买、出售资产情况的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701131.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-ec44",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于本次交易采取的保密措施及保密制度的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701130.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-6260",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于披露发行股份购买资产并募集配套资金暨关联交易预案的一般风险提示暨公司股票复牌的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701139.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-1a1b",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于停牌前一个交易日前十大股东和前十大流通股股东持股情况的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701137.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-cf98",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:TCL中环新能源科技股份有限公司发行股份购买资产并募集配套资金暨关联交易预案(摘要)",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701138.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-cfac",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:关于增加2026年度日常关联交易预计的公告",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701127.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-86ca",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:TCL中环新能源科技股份有限公司发行股份购买资产并募集配套资金暨关联交易预案",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701133.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-851f",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于不存在《上市公司证券发行注册管理办法》第十一条规定的不得向特定对象发行股票的情形的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701134.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-c184",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:第七届独立董事第十三次专门会议决议",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701142.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-476e",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于本次交易履行法定程序的完备性、合规性及提交法律文件有效性的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701128.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-aa5f",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于本次交易信息公布前公司股票价格波动情况的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701140.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-4c63",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701126.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-002129-20261114-a0e9",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环:董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条、第四十三条和第四十四条规定的说明",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611131831701136.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20261114-1e84",
+      "date": "2026-11-14",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东一致行动人部分股份质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202611131831691556.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600487-20261112-6e09",
       "date": "2026-11-12",
