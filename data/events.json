@@ -1,29 +1,267 @@
 {
-  "generated_at": "2026-11-15T02:29:12.602817+00:00",
+  "generated_at": "2026-11-16T02:38:47.284226+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-15T02:29:10.600886+00:00",
+      "last_success_at": "2026-11-16T02:38:44.588917+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-15T02:29:12.602380+00:00",
+      "last_success_at": "2026-11-16T02:38:47.283656+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-15T02:29:12.602553+00:00",
+      "last_success_at": "2026-11-16T02:38:47.283880+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-002129-20261116-87fe",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "TCL中环2026年11月15日投资者关系活动记录表",
+      "url": "https://data.eastmoney.com/notices/detail/002129/AN202611161831737458.html",
+      "event_type": "other",
+      "related_nodes": [
+        "002129",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-85ee",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司第九届董事会薪酬与考核委员会关于公司2026年员工持股计划事项的审核意见",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732319.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-ca27",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司第九届董事会第十五次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732324.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-b589",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司职工代表大会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732322.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-5ede",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于独立董事辞职暨增补独立董事的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732318.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-d811",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2026年员工持股计划(草案)摘要公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732320.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-3ad1",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于修订公司章程及董事会秘书工作制度暨注册资本变更的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732315.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-4f2f",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:独立董事候选人声明与承诺(张良)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732317.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-bbb0",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于召开2026年第一次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732316.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-0ba6",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2026年员工持股计划(草案)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732321.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-6fcb",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:独立董事提名人声明与承诺(张良)",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732325.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261116-0eac",
+      "date": "2026-11-16",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司2026年员工持股计划管理办法",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611151831732323.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20261114-4bdb",
       "date": "2026-11-14",
