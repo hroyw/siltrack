@@ -1,29 +1,67 @@
 {
-  "generated_at": "2026-11-17T05:00:28.509843+00:00",
+  "generated_at": "2026-11-18T04:05:44.067534+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-17T05:00:25.868145+00:00",
+      "last_success_at": "2026-11-18T04:05:41.047370+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-17T05:00:28.509436+00:00",
+      "last_success_at": "2026-11-18T04:05:44.067083+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-17T05:00:28.509582+00:00",
+      "last_success_at": "2026-11-18T04:05:44.067299+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20261118-4bc3",
+      "date": "2026-11-18",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:联合资信评估股份有限公司关于通威股份有限公司2026年三季报业绩亏损的关注公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611171831790473.html",
+      "event_type": "financial_report",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600596-20261118-6258",
+      "date": "2026-11-18",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "新安股份:新安股份关于公司及控股子公司提供担保的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600596/AN202611171831786913.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600596",
+        "SI",
+        "dmc",
+        "silicone-107",
+        "silicone-oil"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20261116-87fe",
       "date": "2026-11-16",
