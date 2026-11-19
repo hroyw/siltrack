@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-11-18T04:05:44.067534+00:00",
+  "generated_at": "2026-11-19T04:02:50.983655+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-18T04:05:41.047370+00:00",
+      "last_success_at": "2026-11-19T04:02:35.137794+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-18T04:05:44.067083+00:00",
+      "last_success_at": "2026-11-19T04:02:50.983236+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-18T04:05:44.067299+00:00",
+      "last_success_at": "2026-11-19T04:02:50.983446+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-688303-20261119-db4d",
+      "date": "2026-11-19",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "大全能源:大全能源关于选举职工代表董事的公告",
+      "url": "https://data.eastmoney.com/notices/detail/688303/AN202611181831820872.html",
+      "event_type": "other",
+      "related_nodes": [
+        "688303",
+        "SI",
+        "PS",
+        "polysilicon-dense"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20261118-4bc3",
       "date": "2026-11-18",
