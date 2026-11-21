@@ -1,29 +1,86 @@
 {
-  "generated_at": "2026-11-20T03:55:26.391057+00:00",
+  "generated_at": "2026-11-21T03:53:45.384472+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-20T03:55:24.146235+00:00",
+      "last_success_at": "2026-11-21T03:53:29.428255+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-20T03:55:26.390498+00:00",
+      "last_success_at": "2026-11-21T03:53:45.384008+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-20T03:55:26.390712+00:00",
+      "last_success_at": "2026-11-21T03:53:45.384212+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600487-20261121-1e1a",
+      "date": "2026-11-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于控股股东增持公司股份计划的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611201831904083.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600438-20261121-605c",
+      "date": "2026-11-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于以集中竞价交易方式回购股份方案的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611201831902072.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20261121-6bd5",
+      "date": "2026-11-21",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人部分股份质押及解质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202611201831898522.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20261120-2384",
       "date": "2026-11-20",
