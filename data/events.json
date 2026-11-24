@@ -1,29 +1,48 @@
 {
-  "generated_at": "2026-11-23T03:36:51.189544+00:00",
+  "generated_at": "2026-11-24T06:52:00.970481+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-23T03:36:49.230790+00:00",
+      "last_success_at": "2026-11-24T06:51:59.620608+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-23T03:36:51.188920+00:00",
+      "last_success_at": "2026-11-24T06:52:00.969944+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-23T03:36:51.189148+00:00",
+      "last_success_at": "2026-11-24T06:52:00.970195+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601012-20261124-8597",
+      "date": "2026-11-24",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于债券持有人可转债持有比例变动达10%的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611231831963473.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600487-20261121-1e1a",
       "date": "2026-11-21",
