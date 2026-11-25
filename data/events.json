@@ -1,29 +1,66 @@
 {
-  "generated_at": "2026-11-24T06:52:00.970481+00:00",
+  "generated_at": "2026-11-25T05:19:15.080961+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-24T06:51:59.620608+00:00",
+      "last_success_at": "2026-11-25T05:19:13.385032+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-24T06:52:00.969944+00:00",
+      "last_success_at": "2026-11-25T05:19:15.080380+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-24T06:52:00.970195+00:00",
+      "last_success_at": "2026-11-25T05:19:15.080593+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20261125-55e1",
+      "date": "2026-11-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:通威股份有限公司关于股份回购事项前十大股东和前十大无限售条件股东持股情况的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611241831994432.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-600487-20261125-94db",
+      "date": "2026-11-25",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "亨通光电:亨通光电关于首次实施回购公司股份的公告",
+      "url": "https://data.eastmoney.com/notices/detail/600487/AN202611241831993305.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600487",
+        "quartz-sand",
+        "optical-preform",
+        "optical-fiber"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-601012-20261124-8597",
       "date": "2026-11-24",
