@@ -1,29 +1,219 @@
 {
-  "generated_at": "2026-11-25T05:19:15.080961+00:00",
+  "generated_at": "2026-11-26T04:49:12.094604+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-25T05:19:13.385032+00:00",
+      "last_success_at": "2026-11-26T04:49:08.710413+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-25T05:19:15.080380+00:00",
+      "last_success_at": "2026-11-26T04:49:12.094082+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-25T05:19:15.080593+00:00",
+      "last_success_at": "2026-11-26T04:49:12.094301+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-601012-20261126-75ff",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于预计2027年日常关联交易的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034867.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-a01e",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:第六届董事会2026年第七次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034863.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-9ff2",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于2027年开展外汇衍生品交易的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034866.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-2e97",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于控股子公司员工持股平台份额变更暨关联交易的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034862.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-0d63",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:第六届董事会独立董事专门会议2026年第二次会议决议",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034864.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-9baf",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于2027年度开展商品期货套期保值业务的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034868.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-36ae",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于2027年为分布式业务客户提供担保的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034860.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-a6c2",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于2027年使用自有资金进行委托理财的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034865.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-d23f",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于召开2026年第一次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034869.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-601012-20261126-9451",
+      "date": "2026-11-26",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "隆基绿能:关于2026年公司及子公司间担保额度预计的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601012/AN202611251832034861.html",
+      "event_type": "other",
+      "related_nodes": [
+        "601012",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-600438-20261125-55e1",
       "date": "2026-11-25",
