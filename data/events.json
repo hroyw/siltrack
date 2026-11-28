@@ -1,29 +1,69 @@
 {
-  "generated_at": "2026-11-27T04:54:15.879441+00:00",
+  "generated_at": "2026-11-28T04:38:21.244379+00:00",
   "sources": {
     "cninfo": {
       "ok": true,
-      "last_success_at": "2026-11-27T04:54:13.009114+00:00",
+      "last_success_at": "2026-11-28T04:38:18.075981+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "gfex": {
       "ok": true,
-      "last_success_at": "2026-11-27T04:54:15.878864+00:00",
+      "last_success_at": "2026-11-28T04:38:21.243826+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": null
     },
     "customs": {
       "ok": true,
-      "last_success_at": "2026-11-27T04:54:15.879090+00:00",
+      "last_success_at": "2026-11-28T04:38:21.244029+00:00",
       "stale_days": 0,
       "error": null,
       "lag_note": "海关数据为月度发布，最新月份通常滞后 30-45 天"
     }
   },
   "events": [
+    {
+      "id": "cninfo-600438-20261128-a23e",
+      "date": "2026-11-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "通威股份:北京金杜(成都)律师事务所关于通威股份有限公司2026年员工持股计划的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/600438/AN202611271832115588.html",
+      "event_type": "other",
+      "related_nodes": [
+        "600438",
+        "SI",
+        "PS",
+        "polysilicon-dense",
+        "wafer-m10",
+        "cell-topcon",
+        "module"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
+    {
+      "id": "cninfo-603260-20261128-84b9",
+      "date": "2026-11-28",
+      "source": "cninfo",
+      "source_label": "巨潮资讯",
+      "title": "合盛硅业:合盛硅业关于控股股东及其一致行动人部分股份质押的公告",
+      "url": "https://data.eastmoney.com/notices/detail/603260/AN202611271832112400.html",
+      "event_type": "other",
+      "related_nodes": [
+        "603260",
+        "SI",
+        "polysilicon-dense",
+        "dmc",
+        "silicone-107",
+        "silicone-oil",
+        "fumed-silica"
+      ],
+      "summary": null,
+      "raw_text_excerpt": ""
+    },
     {
       "id": "cninfo-002129-20261127-87a1",
       "date": "2026-11-27",
